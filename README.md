@@ -27,7 +27,7 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-  <img height="270" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=dracula&include_all_commits=true" />
-  <img height="270" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=dracula&show_icons=true" />
+  <img height="230" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=dracula&include_all_commits=true" />
+  <img height="230" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=dracula&show_icons=true" />
 </p>
 
