@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <h1 align="center"></h1>
-<h2 align="center">Hi there, I am weiensong.👋 Technology Stack <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"> Reach me on <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"></h2>
+<h2 align="center">Hi there, I am weiensong.👋 Technology Stack <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100"> Reach me on <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"></h2>
 <p align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java"/>
@@ -27,6 +27,6 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-  <img align="top" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=tokyonight&layout=compact" />
-  <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&show_icons=true&theme=radical&layout=compact" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=highcontrast&layout=compact" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&show_icons=true&theme=highcontrast&layout=compact" />
 </p>
