@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 <h1 align="center"></h1>
 <h2 align="center">Hi there, I am weiensong.👋 Technology Stack <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"> Reach me on <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"></h2>
-<p1 align="center">
+<p align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java"/>
 <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
@@ -24,8 +24,8 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
 <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/>
 <img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=email"/>
-</p1>
-<p2 align="center">
+</p>
+<p align="center">
   <img align="top" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=tokyonight&card_width=70" />
   <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&show_icons=true&theme=radical" />
-</p2>
+</p>
