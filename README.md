@@ -26,6 +26,6 @@ Here are some ideas to get you started:
 </p>
 <h2 align="center">Reach me on: <img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=email"/><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h2>
 <p align = "center">
-  <img src = "https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=tokyonight">
-  <img src = "https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=radical">
+  <img align="top" src = "https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=tokyonight">
+  <img align="top" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&show_icons=true&theme=radical">
 </p>
