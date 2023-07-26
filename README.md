@@ -25,9 +25,9 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/>
 </p>
 
-<h2 align="center">Reach me on <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h2>
+<h2 align="center">Reach me on: <img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=email"/><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h2>
 <p align="center">
-<img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=email"/>
+
 </p>
 <p align = "center">
   <img src = "https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=tokyonight&line_height=27">
