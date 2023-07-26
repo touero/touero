@@ -27,6 +27,6 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-  <img align="top" src="https://github-readme-stats.vercel.app/api?username=weiensong&card_width=1&show_icons=true&theme=highcontrast&layout=compact" />
+  <img align="top" src="https://github-readme-stats.vercel.app/api?username=weiensong&card_width=50&show_icons=true&theme=highcontrast&layout=compact" />
   <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&show_icons=true&theme=highcontrast&layout=compact" />
 </p>
