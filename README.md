@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <h1 align="center"></h1>
-<h2 align="center">Hi there I am weiensong <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="50"> Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<h2 align="center">Hi there I am weiensong <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHRnZDhmdG1tZGw2dWN0bTVxemtvczd3cTFlaWc2dGRyMGljbmM0ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OkSnJIM4M1zc88linT/giphy.gif" width="50"> Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <p align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java"/>
@@ -24,6 +24,7 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
 <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/>
 <img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=email"/>
+<img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
 </p>
 
 <p align="center">
