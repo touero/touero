@@ -1,5 +1,8 @@
-<h1 align="center">Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100"></h1>
-<p align="center">
+<h1 align="center">
+  Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
+</h1>
+
+<p1 align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk"/>
 <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
@@ -14,12 +17,16 @@
 <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/>
 <img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=gmail"/>
 <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
-</p>
+</p1>
 
-<p align="center">
+<h2 align="center">
+   Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100">
+</h2>
+
+<p2 align="center">
   <img height="240" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=dracula&include_all_commits=true" />
   <img height="240" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=dracula&show_icons=true" />
-</p>
+</p2>
 
 <!--
 **weiensong/weiensong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
