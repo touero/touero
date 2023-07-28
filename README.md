@@ -17,12 +17,14 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java"/>
 <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
-<img src="https://img.shields.io/badge/-Hadoop-black?style=flat-square&logo=hadoop"/>
-<img src="https://img.shields.io/badge/-MapReduce-black?style=flat-square&logo=mapreduce"/>
+<img src="https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux"/>
+<img src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker"/>
+<img src="https://img.shields.io/badge/-Hadoop-black?style=flat-square&logo=apachehadoop"/>
+<img src="https://img.shields.io/badge/-Selenium-black?style=flat-square&logo=selenium"/>
 <img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql"/>
 <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
 <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/>
-<img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=email"/>
+<img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=gmail"/>
 <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
 </p>
 
