@@ -11,12 +11,14 @@
 <img src="https://img.shields.io/badge/-Hadoop-black?style=flat-square&logo=apachehadoop"/>
 <img src="https://img.shields.io/badge/-Selenium-black?style=flat-square&logo=selenium"/>
 <img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql"/>
-<img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
+<img src="https://img.shields.io/badge/-Maven-black?style=flat-square&logo=apachemaven"/>
+  <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
 </p>
 
 <h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100"></h2>
 
 <p align="center">
+<img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/>
 <img src="https://img.shields.io/badge/-wes0018@aliyun.com-black?style=flat-square&logo=gmail"/>
 <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
 </p>
