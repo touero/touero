@@ -12,7 +12,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<h2 align="center">Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<h2 align="center">Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100"></h2>
 <p align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java"/>
@@ -29,7 +29,7 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-  <img height="230" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=dracula&include_all_commits=true" />
-  <img height="230" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=dracula&show_icons=true" />
+  <img height="250" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=dracula&include_all_commits=true" />
+  <img height="250" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=dracula&show_icons=true" />
 </p>
 
