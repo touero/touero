@@ -18,6 +18,7 @@
 <img src="https://img.shields.io/badge/-Jupyter-black?style=flat-square&logo=jupyter"/>
 <img src="https://img.shields.io/badge/-Html-black?style=flat-square&logo=html5"/>
 <img src="https://img.shields.io/badge/-Markdown-black?style=flat-square&logo=markdown"/>
+<img src="https://img.shields.io/badge/-Windows Terminal-black?style=flat-square&logo=windowsterminal"/>
 
 
 </p>
