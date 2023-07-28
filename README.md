@@ -12,8 +12,14 @@
 <img src="https://img.shields.io/badge/-Spark-black?style=flat-square&logo=apachespark"/>
 <img src="https://img.shields.io/badge/-Selenium-black?style=flat-square&logo=selenium"/>
 <img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql"/>
+<img src="https://img.shields.io/badge/-Hive-black?style=flat-square&logo=hive"/>
 <img src="https://img.shields.io/badge/-Maven-black?style=flat-square&logo=apachemaven"/>
-  <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
+<img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
+<img src="https://img.shields.io/badge/-Jupyter-black?style=flat-square&logo=jupyter"/>
+<img src="https://img.shields.io/badge/-Html-black?style=flat-square&logo=html5"/>
+<img src="https://img.shields.io/badge/-Markdown-black?style=flat-square&logo=markdown"/>
+
+
 </p>
 
 <h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
