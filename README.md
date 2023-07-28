@@ -1,10 +1,10 @@
-<h align="center">Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100"></h1>
+<h1 align="center">Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100"></h1>
 <p align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk"/>
 <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
 <img src="https://img.shields.io/badge/-Scala-black?style=flat-square&logo=scala"/>
-  <img src="https://img.shields.io/badge/-R-black?style=flat-square&logo=r"/>
+<img src="https://img.shields.io/badge/-R-black?style=flat-square&logo=r"/>
 <img src="https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux"/>
 <img src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker"/>
 <img src="https://img.shields.io/badge/-Hadoop-black?style=flat-square&logo=apachehadoop"/>
