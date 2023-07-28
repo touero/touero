@@ -1,6 +1,4 @@
-<h1 align="center">
-  Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100">
-</h1>
+<h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"></h1>
 
 <p1 align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
@@ -19,8 +17,7 @@
 <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
 </p1>
 
-<h2 align="center">
-   Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100">
+<h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100">
 </h2>
 
 <p2 align="center">
