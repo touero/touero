@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 <h2 align="center">Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="100"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="100"></h2>
 <p align="center">
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
-<img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java"/>
+<img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk"/>
 <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
 <img src="https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux"/>
 <img src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker"/>
