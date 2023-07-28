@@ -19,8 +19,9 @@
 <img src="https://img.shields.io/badge/-Html-black?style=flat-square&logo=html5"/>
 <img src="https://img.shields.io/badge/-Markdown-black?style=flat-square&logo=markdown"/>
 <img src="https://img.shields.io/badge/-Windows Terminal-black?style=flat-square&logo=windowsterminal"/>
-
-
+<img src="https://img.shields.io/badge/-Echarts-black?style=flat-square&logo=apacheecharts"/>
+<img src="https://img.shields.io/badge/-Pycharm-black?style=flat-square&logo=pycharm"/>
+<img src="https://img.shields.io/badge/-Idea-black?style=flat-square&logo=intellijidea"/>
 </p>
 
 <h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
