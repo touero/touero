@@ -17,6 +17,7 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk"/>
 <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
+<img src="https://img.shields.io/badge/-Scala-black?style=flat-square&logo=scala"/>
 <img src="https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux"/>
 <img src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker"/>
 <img src="https://img.shields.io/badge/-Hadoop-black?style=flat-square&logo=apachehadoop"/>
