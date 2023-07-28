@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=java"/>
 <img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
 <img src="https://img.shields.io/badge/-Hadoop-black?style=flat-square&logo=hadoop"/>
-<img src="https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb"/>
+<img src="https://img.shields.io/badge/-MapReduce-black?style=flat-square&logo=mapreduce"/>
 <img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql"/>
 <img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
 <img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github"/>
