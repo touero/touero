@@ -53,7 +53,13 @@
 </picture>
 </p>
 
+<h1> counting of visitors to this page in this section started from June 12, 2022 </h1>
+
 ![](https://count.getloli.com/get/@weiensong.github.readme?theme=rele34)
+</br>
+
+[MIT](LICENSE)
+
 
 <!--
 **weiensong/weiensong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
