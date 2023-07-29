@@ -53,9 +53,9 @@
 </picture>
 </p>
 
-<h1> counting of visitors to this page in this section started from June 12, 2022 </h1>
-
-![](https://count.getloli.com/get/@weiensong.github.readme?theme=rele34)
+<h1> counting of visitors </h1>
+to this page in this section started from June 12, 2022
+<p align="center"> ![](https://count.getloli.com/get/@weiensong.github.readme?theme=rele34) </p>
 </br>
 
 [MIT](LICENSE)
