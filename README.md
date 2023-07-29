@@ -1,27 +1,27 @@
 <h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"></h1>
 
 <p align="center">
-<img src="https://img.shields.io/badge/-Python-black?style=flat-square&logo=python"/>
-<img src="https://img.shields.io/badge/-Java-black?style=flat-square&logo=openjdk"/>
-<img src="https://img.shields.io/badge/-C-black?style=flat-square&logo=c"/>
-<img src="https://img.shields.io/badge/-Scala-black?style=flat-square&logo=scala"/>
-<img src="https://img.shields.io/badge/-R-black?style=flat-square&logo=r"/>
-<img src="https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux"/>
-<img src="https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker"/>
-<img src="https://img.shields.io/badge/-Hadoop-black?style=flat-square&logo=apachehadoop"/>
-<img src="https://img.shields.io/badge/-Spark-black?style=flat-square&logo=apachespark"/>
-<img src="https://img.shields.io/badge/-Selenium-black?style=flat-square&logo=selenium"/>
-<img src="https://img.shields.io/badge/-MySQL-black?style=flat-square&logo=mysql"/>
-<img src="https://img.shields.io/badge/-Hive-black?style=flat-square&logo=hive"/>
-<img src="https://img.shields.io/badge/-Maven-black?style=flat-square&logo=apachemaven"/>
-<img src="https://img.shields.io/badge/-Git-black?style=flat-square&logo=git"/>
-<img src="https://img.shields.io/badge/-Jupyter-black?style=flat-square&logo=jupyter"/>
-<img src="https://img.shields.io/badge/-Html-black?style=flat-square&logo=html5"/>
-<img src="https://img.shields.io/badge/-Markdown-black?style=flat-square&logo=markdown"/>
-<img src="https://img.shields.io/badge/-Windows Terminal-black?style=flat-square&logo=windowsterminal"/>
-<img src="https://img.shields.io/badge/-Echarts-black?style=flat-square&logo=apacheecharts"/>
-<img src="https://img.shields.io/badge/-Pycharm-black?style=flat-square&logo=pycharm"/>
-<img src="https://img.shields.io/badge/-Idea-black?style=flat-square&logo=intellijidea"/>
+<img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/>
+<img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/>
+<img src="https://img.shields.io/badge/-C-%230d1117?style=flat-square&logo=c"/>
+<img src="https://img.shields.io/badge/-Scala-%230d1117?style=flat-square&logo=scala"/>
+<img src="https://img.shields.io/badge/-R-%230d1117?style=flat-square&logo=r"/>
+<img src="https://img.shields.io/badge/-Linux-%230d1117?style=flat-square&logo=linux"/>
+<img src="https://img.shields.io/badge/-Docker-%230d1117?style=flat-square&logo=docker"/>
+<img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=flat-square&logo=apachehadoop"/>
+<img src="https://img.shields.io/badge/-Spark-%230d1117?style=flat-square&logo=apachespark"/>
+<img src="https://img.shields.io/badge/-Selenium-%230d1117?style=flat-square&logo=selenium"/>
+<img src="https://img.shields.io/badge/-MySQL-%230d1117?style=flat-square&logo=mysql"/>
+<img src="https://img.shields.io/badge/-Hive-%230d1117?style=flat-square&logo=hive"/>
+<img src="https://img.shields.io/badge/-Maven-%230d1117?style=flat-square&logo=apachemaven"/>
+<img src="https://img.shields.io/badge/-Git-%230d1117?style=flat-square&logo=git"/>
+<img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=flat-square&logo=jupyter"/>
+<img src="https://img.shields.io/badge/-Html-%230d1117?style=flat-square&logo=html5"/>
+<img src="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown"/>
+<img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal"/>
+<img src="https://img.shields.io/badge/-Echarts-%230d1117?style=flat-square&logo=apacheecharts"/>
+<img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/>
+<img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/>
 </p>
 
 <h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
