@@ -1,5 +1,4 @@
 <!--   my-header-img -->
-![](./src/header_.png)
 <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
 <!--   my-ticker -->    
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+weiensong;+Welcome+to+My+Profile!)](https://git.io/typing-svg)
@@ -29,6 +28,8 @@
 <img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/>
 <img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/>
 </p>
+
+![](./src/header_.png)
 
 <h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 
