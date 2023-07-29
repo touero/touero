@@ -34,8 +34,7 @@
 
 <p align="center">
   <img height="210" src="https://github-readme-stats.vercel.app/api?username=weiensong&show_icons=true&theme=dracula&include_all_commits=true" />
-  <img height="210" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=draculal&layout=compact" />
- # <img height="210" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=dracula&show_icons=true" />
+  <img height="210" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&theme=draculal&layout=compact&show_icons=true" />
 </p>
 
 <p>
