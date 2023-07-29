@@ -53,7 +53,7 @@
 </picture>
 </p>
 
-![](https://count.getloli.com/get/@weiensong.github.readme)
+![](https://count.getloli.com/get/@weiensong.github.readme?theme=rele34)
 
 <!--
 **weiensong/weiensong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
