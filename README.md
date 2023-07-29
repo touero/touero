@@ -28,7 +28,6 @@
 <img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/>
 <img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/>
 </p>
-
 ![](./src/header_.png)
 
 <h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
