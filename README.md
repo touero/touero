@@ -3,7 +3,7 @@
 <h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"></h1>
 
 <p align="center">
-<img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/>
+<a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
 <img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/>
 <img src="https://img.shields.io/badge/-C-%230d1117?style=flat-square&logo=c"/>
 <img src="https://img.shields.io/badge/-Scala-%230d1117?style=flat-square&logo=scala"/>
