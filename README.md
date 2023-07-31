@@ -13,11 +13,11 @@
 <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=flat-square&logo=apachehadoop"/></a>
 <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/-Spark-%230d1117?style=flat-square&logo=apachespark"/></a>
 <a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/-Selenium-%230d1117?style=flat-square&logo=selenium"/></a>
-<img src="https://img.shields.io/badge/-MySQL-%230d1117?style=flat-square&logo=mysql"/>
-<img src="https://img.shields.io/badge/-Hive-%230d1117?style=flat-square&logo=hive"/>
-<img src="https://img.shields.io/badge/-Maven-%230d1117?style=flat-square&logo=apachemaven"/>
-<img src="https://img.shields.io/badge/-Git-%230d1117?style=flat-square&logo=git"/>
-<img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=flat-square&logo=jupyter"/>
+<a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/-MySQL-%230d1117?style=flat-square&logo=mysql"/></a>
+<a href="https://hive.apache.org/"><img src="https://img.shields.io/badge/-Hive-%230d1117?style=flat-square&logo=hive"/></a>
+<a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/-Maven-%230d1117?style=flat-square&logo=apachemaven"/></a>
+<a href="https://git-scm.com/"><img src="https://img.shields.io/badge/-Git-%230d1117?style=flat-square&logo=git"/></a>
+<a href="https://jupyter.org/"><img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=flat-square&logo=jupyter"/></a>
 <img src="https://img.shields.io/badge/-Html-%230d1117?style=flat-square&logo=html5"/>
 <img src="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown"/>
 <img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal"/>
