@@ -6,7 +6,7 @@
 <a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/></a>
 <a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=flat-square&logo=c"/></a>
-<a href="www.scala-lang.org"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=flat-square&logo=scala"/></a>
+<a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=flat-square&logo=scala"/></a>
 <a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/-R-%230d1117?style=flat-square&logo=r"/></a>
 <img src="https://img.shields.io/badge/-Linux-%230d1117?style=flat-square&logo=linux"/>
 <img src="https://img.shields.io/badge/-Docker-%230d1117?style=flat-square&logo=docker"/>
