@@ -35,7 +35,7 @@
 <h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 
 <p align="center">
-<img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/>
+<a href="https://github.com/weiensong"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/></a>
 <img src="https://img.shields.io/badge/-wes0018@aliyun.com-%230d1117?style=flat-square&logo=gmail"/>
 <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
 </p>
