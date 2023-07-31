@@ -8,11 +8,11 @@
 <a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=flat-square&logo=c"/></a>
 <a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=flat-square&logo=scala"/></a>
 <a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/-R-%230d1117?style=flat-square&logo=r"/></a>
-<img src="https://img.shields.io/badge/-Linux-%230d1117?style=flat-square&logo=linux"/>
-<img src="https://img.shields.io/badge/-Docker-%230d1117?style=flat-square&logo=docker"/>
-<img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=flat-square&logo=apachehadoop"/>
-<img src="https://img.shields.io/badge/-Spark-%230d1117?style=flat-square&logo=apachespark"/>
-<img src="https://img.shields.io/badge/-Selenium-%230d1117?style=flat-square&logo=selenium"/>
+<a href="https://www.linux.org/"><img src="https://img.shields.io/badge/-Linux-%230d1117?style=flat-square&logo=linux"/></a>
+<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/-Docker-%230d1117?style=flat-square&logo=docker"/></a>
+<a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=flat-square&logo=apachehadoop"/></a>
+<a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/-Spark-%230d1117?style=flat-square&logo=apachespark"/></a>
+<a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/-Selenium-%230d1117?style=flat-square&logo=selenium"/></a>
 <img src="https://img.shields.io/badge/-MySQL-%230d1117?style=flat-square&logo=mysql"/>
 <img src="https://img.shields.io/badge/-Hive-%230d1117?style=flat-square&logo=hive"/>
 <img src="https://img.shields.io/badge/-Maven-%230d1117?style=flat-square&logo=apachemaven"/>
