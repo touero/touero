@@ -41,8 +41,8 @@
 </p>
 
 <p align="center">
-  <img height="190" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=weiensong&theme=dracula&line_height=40&hide=css&show_icons=true&&include_all_commits=true" />
-  <img height="190" src="github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=weiensong&theme=dracula&layout=compact&show_icons=true" />
+  <img height="190" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=weiensong&theme=dracula&show_icons=true&&include_all_commits=true" />
+  <img height="190" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=weiensong&theme=dracula&layout=compact&show_icons=true" />
 </p>
 
 <p>
