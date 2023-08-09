@@ -40,9 +40,10 @@
 <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
 </p>
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact)](https://github.com/weiensong/github-readme-stats)
 <p align="center">
   <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=dracula&include_all_commits=true" />
-  <img height="150" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=weiensong&theme=dracula&layout=compact&show_icons=true&include_all_commits=true" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=dracula" />
 </p>
 
 <p>
