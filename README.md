@@ -28,7 +28,7 @@
 
 <!--   my-header-img -->
 ![](./.src/header_.png)
-<a href="https://www.python.org/"><img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="50" width="50" ></a>
+<a href="https://www.python.org/"><img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" ></a>
 <!--   my-ticker -->    
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&width=600&lines=Hi+there+👋,+I+am+weiensong!;+Welcome+to+My+Profile!;l+enjoy+new+things!)](https://git.io/typing-svg)
 
