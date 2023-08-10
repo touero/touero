@@ -58,7 +58,7 @@ counting of visitors to this page in this section started from July 30, 2023
 ![](https://count.getloli.com/get/@weiensong.github.readme?theme=rele34)
 </br>
 
-[MIT](LICENSE)
+[MIT](https://github.com/weiensong/weiensong/blob/main/.universal/LICENSE.txt)
 
 
 <!--
