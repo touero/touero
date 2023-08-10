@@ -22,6 +22,7 @@
 <a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown"/>
 <a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701"><img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal"/>
 <a href="https://echarts.apache.org/index.html"><img src="https://img.shields.io/badge/-Echarts-%230d1117?style=flat-square&logo=apacheecharts"/>
+<a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Vim-%230d1117?style=flat-square&logo=vim"/>
 <a href="https://www.jetbrains.com/pycharm/"><img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/>
 <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/>
 </p>
