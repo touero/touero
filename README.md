@@ -25,6 +25,7 @@
 <a href="https://echarts.apache.org/index.html"><img src="https://img.shields.io/badge/-Echarts-%230d1117?style=flat-square&logo=apacheecharts"/>
 <a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-Vim-%230d1117?style=flat-square&logo=vim"/>
 <a href="https://neovim.io/"><img src="https://img.shields.io/badge/-Neovim-%230d1117?style=flat-square&logo=neovim"/>
+<a href="https://www.lua.org/"><img src="https://img.shields.io/badge/-Lua-%230d1117?style=flat-square&logo=lua"/>
 <a href="https://www.jetbrains.com/pycharm/"><img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/>
 <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/>
 </p>
