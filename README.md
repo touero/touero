@@ -14,7 +14,7 @@
 <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/-Spark-%230d1117?style=flat-square&logo=apachespark"/></a>
 <a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/-Selenium-%230d1117?style=flat-square&logo=selenium"/></a>
 <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/-MySQL-%230d1117?style=flat-square&logo=mysql"/></a>
-<a href="https://hive.apache.org/"><img src="https://img.shields.io/badge/-Hive-%230d1117?style=flat-square&logo=hive"/></a>
+<a href="https://hive.apache.org/"><img src="https://img.shields.io/badge/-Hive-%230d1117?style=flat-square&logo=apachehive"/></a>
 <a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/-Maven-%230d1117?style=flat-square&logo=apachemaven"/></a>
 <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/-Git-%230d1117?style=flat-square&logo=git"/></a>
 <a href="https://jupyter.org/"><img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=flat-square&logo=jupyter"/></a>
