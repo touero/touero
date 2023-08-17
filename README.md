@@ -1,7 +1,7 @@
 <!--
 ![](./.src/header3_.png)
 -->
-<h align="center"><img src="https://github.com/weiensong/weiensong/blob/main/.src/header3_.png" width="1000" height="200"></h>
+<h align="center"><img src="https://github.com/weiensong/weiensong/blob/main/.src/header3_.png" width="1000" height="100"></h>
 <h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"></h1>
 
 <p align="center">
