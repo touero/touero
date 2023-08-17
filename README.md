@@ -1,6 +1,8 @@
-
+<!--
 ![](./.src/header3_.png)
-<h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50" height="100"></h1>
+-->
+<h align="center"><img src="https://github.com/weiensong/weiensong/blob/main/.src/header3_.png" width="50"></h>
+<h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"></h1>
 
 <p align="center">
 <a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
