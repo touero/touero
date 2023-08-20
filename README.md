@@ -46,6 +46,8 @@
 <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
 </p>
 
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github)](https://github.com/weiensong/github-readme-activity-graph)
+
 <p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true" />
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula" />
