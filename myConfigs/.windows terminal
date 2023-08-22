@@ -6,6 +6,13 @@
         {
             "command": 
             {
+                "action": "scrollDown"
+            },
+            "keys": "ctrl+pgdn"
+        },
+        {
+            "command": 
+            {
                 "action": "renameTab"
             },
             "keys": "ctrl+alt+r"
@@ -13,13 +20,6 @@
         {
             "command": "find",
             "keys": "ctrl+shift+f"
-        },
-        {
-            "command": 
-            {
-                "action": "scrollDown"
-            },
-            "keys": "ctrl+pgdn"
         },
         {
             "command": "paste",
@@ -32,15 +32,6 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
         },
         {
             "command": "unbound",
@@ -207,6 +198,15 @@
             "keys": "ctrl+shift+i"
         },
         {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        },
+        {
             "command": "closeWindow",
             "keys": "alt+f4"
         },
@@ -227,17 +227,17 @@
         {
             "command": 
             {
-                "action": "scrollUp"
-            },
-            "keys": "ctrl+pgup"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "previousInOrder"
             },
             "keys": "alt+left"
+        },
+        {
+            "command": 
+            {
+                "action": "scrollUp"
+            },
+            "keys": "ctrl+pgup"
         },
         {
             "command": 
@@ -311,6 +311,13 @@
         {
             "command": "markMode",
             "keys": "ctrl+shift+/"
+        },
+        {
+            "command": 
+            {
+                "action": "globalSummon"
+            },
+            "keys": "alt+/"
         }
     ],
     "alwaysShowNotificationIcon": false,
@@ -334,7 +341,7 @@
     {
         "defaults": 
         {
-            "colorScheme": "Cobalt Neon",
+            "colorScheme": "Ciapre",
             "opacity": 85
         },
         "list": 
@@ -404,7 +411,7 @@
                 "antialiasingMode": "cleartype",
                 "backgroundImage": null,
                 "backgroundImageOpacity": 0.2,
-                "colorScheme": "Cobalt Neon",
+                "colorScheme": "Ciapre",
                 "cursorShape": "bar",
                 "font": 
                 {
@@ -414,10 +421,10 @@
                 },
                 "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
                 "hidden": false,
-                "intenseTextStyle": "all",
+                "intenseTextStyle": "none",
                 "name": "WSL",
                 "opacity": 85,
-                "padding": "20",
+                "padding": "30",
                 "scrollbarState": "visible",
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
                 "startingDirectory": "%USERPROFILE%",
@@ -521,6 +528,29 @@
             "yellow": "#C19C00"
         },
         {
+            "background": "#0D1117",
+            "black": "#2E2E2E",
+            "blue": "#576D8C",
+            "brightBlack": "#555555",
+            "brightBlue": "#3097C6",
+            "brightCyan": "#F3DBB2",
+            "brightGreen": "#A6A75D",
+            "brightPurple": "#D33061",
+            "brightRed": "#AC3835",
+            "brightWhite": "#F4F4F4",
+            "brightYellow": "#DCDF7C",
+            "cursorColor": "#A85300",
+            "cyan": "#5C4F4B",
+            "foreground": "#CCC18F",
+            "green": "#48513B",
+            "name": "Ciapre",
+            "purple": "#724D7C",
+            "red": "#810009",
+            "selectionBackground": "#337896",
+            "white": "#AEA47F",
+            "yellow": "#AD815A"
+        },
+        {
             "background": "#09121A",
             "black": "#142631",
             "blue": "#8FF586",
@@ -588,6 +618,29 @@
             "selectionBackground": "#C14020",
             "white": "#FFC88A",
             "yellow": "#CAAF00"
+        },
+        {
+            "background": "#DFDBC3",
+            "black": "#000000",
+            "blue": "#0000CC",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000CC",
+            "brightCyan": "#0087CC",
+            "brightGreen": "#009600",
+            "brightPurple": "#CC00CC",
+            "brightRed": "#CC0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#D06B00",
+            "cursorColor": "#73635A",
+            "cyan": "#0087CC",
+            "foreground": "#3B2322",
+            "green": "#009600",
+            "name": "Novel",
+            "purple": "#CC00CC",
+            "red": "#CC0000",
+            "selectionBackground": "#A4A390",
+            "white": "#CCCCCC",
+            "yellow": "#D06B00"
         },
         {
             "background": "#282C34",
