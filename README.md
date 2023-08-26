@@ -10,7 +10,7 @@
 <a href="https://www.microsoft.com/"><img src="https://img.shields.io/badge/-Windows-%230d1117?style=flat-square&logo=windows"/></a>
 <a href="https://www.linux.org/"><img src="https://img.shields.io/badge/-Linux-%230d1117?style=flat-square&logo=linux"/></a>
 <a href="https://www.centos.org/"><img src="https://img.shields.io/badge/-CentOS-%230d1117?style=flat-square&logo=centos"/></a>
-<a href="https://ubuntu.com/"><img src="https://img.shields.io/badge/-CentOS-%230d1117?style=flat-square&logo=ubuntu"/></a>
+<a href="https://ubuntu.com/"><img src="https://img.shields.io/badge/-Ubuntu-%230d1117?style=flat-square&logo=ubuntu"/></a>
 <a href="https://www.redhat.com/"><img src="https://img.shields.io/badge/-RedHat-%230d1117?style=flat-square&logo=redhat"/></a>
 <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/-Docker-%230d1117?style=flat-square&logo=docker"/></a>
 <a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Apache-%230d1117?style=flat-square&logo=apache"/></a>
