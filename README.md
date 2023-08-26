@@ -1,9 +1,6 @@
-<!--
-<h align="center"><img src="https://github.com/weiensong/weiensong/blob/main/.src/header3_.png" width="1000" height="100"></h>
--->
+<!-- Technology Stack -->
 ![](./.src/header4_.png)
 <h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"></h1>
-
 <p align="center">
 <a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/></a>
@@ -32,33 +29,53 @@
 <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/>
 </p>
 
+
+
 <!--   my-header-img -->
 ![](./.src/header_.png)
 <a href="https://www.python.org/"><img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" ></a>
-<!--   my-ticker -->    
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!)](https://git.io/typing-svg)
 
-<h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 
+
+<!-- Small contribution -->
+<h2 align="center"> Small contribution <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="50"></h2>
 <p align="center">
-<a href="https://github.com/weiensong"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/></a>
-<img src="https://img.shields.io/badge/-wes0018@aliyun.com-%230d1117?style=flat-square&logo=gmail"/>
-<img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="30">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
+</p>
+
+
+
+<!-- Reach me -->
+<h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<p align="center">
+  <a href="https://github.com/weiensong">
+    <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/>
+  </a>
+  <img src="https://img.shields.io/badge/-wes0018@aliyun.com-%230d1117?style=flat-square&logo=gmail"/>
+</p>
+
+
+
+
+<!-- Some statistics -->
+<h2 align="center"> Some statistics </h2>
+<p align="center">
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20" />
 </p>
 
 
 <p align="center">
 <picture>
-  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github" height="200" />
+  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424" height="200" />
 </picture>
 </p>
 
-<p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula" />
-</p>
 
 <p align="center"><img src="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" alt=""></p>
+
 
 <p align="center">
 <picture>
@@ -68,10 +85,15 @@
 </picture>
 </p>  
 
-counting of visitors to this page in this section started from July 30, 2023 
 
-![](https://moe-counter.glitch.me/get/@weiensong.github.readme?theme=rele34)
-</br>
+
+
+
+### counting of visitors to this page in this section started from July 30, 2023 
+![](https://moe-counter.glitch.me/get/@weiensong.github.readme?theme=rele34)</br>
+
+
+
 
 [MIT](https://github.com/weiensong/weiensong/blob/main/.universal/LICENSE)
 
