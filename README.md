@@ -49,10 +49,10 @@
 <h2 align="center"> Small contribution <img src="https://media.giphy.com/media/r0z6DYAY4VIdO/giphy.gif" width="50"></h2>
 <p align="center">
   <a href="https://github.com/TheAlgorithms/Python">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
   </a>
   <a href="https://github.com/dataease/dataease">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
+  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
   </a>
 </p>
 
@@ -74,7 +74,7 @@
 <h2 align="center"> Some statistics </h2>
 <p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20" />
 </p>
 
 
