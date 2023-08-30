@@ -74,7 +74,7 @@
 <h2 align="center"> Some statistics </h2>
 <p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true" />
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20" />
 </p>
 
 
