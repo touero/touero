@@ -64,7 +64,7 @@
   <a href="https://github.com/weiensong">
     <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/>
   </a>
-  <img src="https://img.shields.io/badge/-wes0018@aliyun.com-%230d1117?style=flat-square&logo=gmail"/>
+  <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=flat-square&logo=gmail"/>
 </p>
 
 
