@@ -80,7 +80,7 @@
 
 <p align="center">
 <picture>
-  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424" height="200" />
+  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True" height="200" />
 </picture>
 </p>
 
