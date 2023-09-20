@@ -1,6 +1,6 @@
 <!-- Technology Stack -->
 ![](./.src/header4_.png)
-<h1 align="center"> Hi there, Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="80"></h1>
+<h1 align="center"> Technology Stack <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80"></h1>
 <p align="center">
 <a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/></a>
@@ -41,7 +41,7 @@
 <!--   my-header-img -->
 ![](./.src/header_.png)
 <a href="https://www.python.org/"><img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" ></a>
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!)](https://git.io/typing-svg)
 
 
 
