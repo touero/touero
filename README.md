@@ -2,7 +2,7 @@
 ![](./.src/header4_.png)-->
 
 <p align="center">
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=weiensong&data=followers,repositories,stars,commits&theme=darkmode">
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=weiensong&data=followers,repositories,stars,commits&theme=viridescent">
 </p>
 
 <p align="center">
