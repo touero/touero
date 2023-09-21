@@ -9,7 +9,7 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=5000&color=F7F7F7&vCenter=true&width=190&height=20&lines=Technology+Stack" alt="Typing SVG" />
 </p>
-  
+<hr />
 <p align="center">
 <a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/></a>
@@ -59,6 +59,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=5000&color=F7F7F7&background=FFFFFF00&vCenter=true&width=220&height=20&lines=Small+contribution" alt="Typing SVG" />
   <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="80">
 </p>  
+<hr />
 <p align="center">
   <a href="https://github.com/TheAlgorithms/Python">
     <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
@@ -75,6 +76,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=5000&color=F7F7F7&background=FFFFFF00&vCenter=true&width=130&height=20&lines=Reach+me+on" alt="Typing SVG" />
   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80">
 </p>  
+<hr />
 <p align="center">
   <a href="https://github.com/weiensong">
     <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/>
@@ -88,7 +90,8 @@
 <!-- Some statistics -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=5000&color=F7F7F7&background=FFFFFF00&vCenter=true&width=130&height=20&lines=Some+statistics" alt="Typing SVG" />
-</p>  
+</p>
+<hr />
 <p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true" />
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20" />
