@@ -1,6 +1,6 @@
 <!-- Technology Stack -->
 ![](./.src/header4_.png)
-<h1 align="center"> Technology Stack <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80"></h1>
+<h1 align="center"> Technology Stack <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="70"></h1>
 <p align="center">
 <a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/></a>
@@ -46,7 +46,7 @@
 
 
 <!-- Small contribution -->
-<h2 align="center"> Small contribution <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="80"></h2>
+<h2 align="center"> Small contribution <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="70"></h2>
 <p align="center">
   <a href="https://github.com/TheAlgorithms/Python">
     <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424" />
@@ -59,7 +59,7 @@
 
 
 <!-- Reach me -->
-<h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80"></h2>
+<h2 align="center"> Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="70"></h2>
 <p align="center">
   <a href="https://github.com/weiensong">
     <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/>
