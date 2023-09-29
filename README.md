@@ -90,6 +90,7 @@
 <!-- Some statistics -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=5000&color=F7F7F7&background=FFFFFF00&vCenter=true&width=130&height=20&lines=Some+statistics" alt="Typing SVG" />
+  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="80">
 </p>
 <hr />
 <p align="center">
