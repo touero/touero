@@ -17,6 +17,7 @@
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/></a>
 <a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=flat-square&logo=c"/></a>
 <a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=flat-square&logo=scala"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/-JavaScript-%230d1117?style=flat-square&logo=javascript"/></a>
 <a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/-R-%230d1117?style=flat-square&logo=r"/></a>
 <a href="https://www.microsoft.com/"><img src="https://img.shields.io/badge/-Windows-%230d1117?style=flat-square&logo=windows"/></a>
 <a href="https://www.linux.org/"><img src="https://img.shields.io/badge/-Linux-%230d1117?style=flat-square&logo=linux"/></a>
