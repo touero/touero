@@ -66,10 +66,10 @@
 
 <p align="center">
   <a href="https://github.com/TheAlgorithms/Python">
-    <img align="center" width="300" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
+    <img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
   </a>
   <a href="https://github.com/dataease/dataease">
-  <img align="center" width="300" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
+  <img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
   </a>
 </p>
 
