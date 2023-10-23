@@ -66,10 +66,10 @@
 
 <p align="center">
   <a href="https://github.com/TheAlgorithms/Python">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
+    <img align="center" width="300" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
   </a>
   <a href="https://github.com/dataease/dataease">
-  <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
+  <img align="center" width="300" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
   </a>
 </p>
 
@@ -106,19 +106,19 @@
 
 <p align="center">
 <picture>
-  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" height="200" />
+  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"/>
 </picture>
 </p>
 
 
-<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" alt=""></p>
+<p align="center"><img width="690" src="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" alt=""></p>
 
 
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
 </picture>
 </p>  
 
