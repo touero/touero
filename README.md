@@ -11,18 +11,13 @@
 <div align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80"></div>
 
-.dark-mode {
-  color: #ffffff;
-  background-color: #0d1117;
-}
 
-/* Light mode */
-.light-mode {
-  color: #000000;
-  background-color: rgb(242, 242, 242);
-}
-<p align="center">
-<a href="https://www.python.org/" ><img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"/></a>
+<p align="center"> 
+<a href="https://www.python.org/" >
+  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"> 
+  <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=plastic&logo=python">
+  <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"/>
+</a>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=plastic&logo=openjdk"/></a>
 <a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=plastic&logo=c"/></a>
 <a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=plastic&logo=scala"/></a>
