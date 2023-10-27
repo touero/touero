@@ -231,13 +231,13 @@
 <p align="center">
   <picture href="https://github.com/TheAlgorithms/Python">
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350"> 
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&disable_animations=true" align="center" width="350"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&disable_animations=true" align="center" width="350"> 
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350">
   </picture>
 
    <picture href="https://github.com/dataease/dataease">
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350"> 
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&disable_animations=true" align="center" width="350"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&disable_animations=true" align="center" width="350"> 
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350">
   </picture>
 </p>
@@ -298,7 +298,7 @@
 <p align="center">
   <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690"> 
   <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&row=1" width="690">
-  <img src="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690">
+  <img src="https://github-profile-trophy.vercel.app/?username=weiensong&row=1" width="690">
 </p>
 
 
