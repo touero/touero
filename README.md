@@ -76,7 +76,7 @@
   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80"></div>
 
 <p align="center">
-  <a href="https://github.com/weiensong"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/></a>
+  <a href="https://github.com/weiensong/weiensong/issues/1"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/></a>
   <a href="mailto:touer0018@gmail.com"> <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=flat-square&logo=gmail"/></a>
 </p>
 
