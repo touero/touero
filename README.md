@@ -13,11 +13,11 @@
 
 
 <p align="center"> 
-<a href="https://www.python.org/" >
+<picture href="https://www.python.org/" >
   <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"> 
   <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=plastic&logo=python">
   <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"/>
-</a>
+</picture>
 <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=plastic&logo=openjdk"/></a>
 <a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=plastic&logo=c"/></a>
 <a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=plastic&logo=scala"/></a>
