@@ -77,7 +77,7 @@
 
 <p align="center">
   <a href="https://github.com/weiensong"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/></a>
-  <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=flat-square&logo=gmail"/>
+  <a href="mailto:touer0018@gmail.com"> <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=flat-square&logo=gmail"/></a>
 </p>
 
 
