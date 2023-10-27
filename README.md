@@ -224,13 +224,22 @@
 
 <!-- Small contribution -->
 <h2 align="center">Small Contribution</h2>  
-
 <div align="center">
-  <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="80"></div>
+  <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="80">
+</div>
 
 <p align="center">
-  <a href="https://github.com/TheAlgorithms/Python"><img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" /></a>
-  <a href="https://github.com/dataease/dataease"><img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" /></a>
+  <picture href="https://github.com/TheAlgorithms/Python">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350"> 
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&disable_animations=true" align="center" width="350"> 
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350">
+  </picture>
+
+   <picture href="https://github.com/dataease/dataease">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350"> 
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&disable_animations=true" align="center" width="350"> 
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350">
+  </picture>
 </p>
 
 
@@ -264,18 +273,33 @@
   <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="80"></div>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true&disable_animations=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20&disable_animations=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true&disable_animations=true" height="180"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=transparent&include_all_commits=true&disable_animations=true" height="180">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true&disable_animations=true" height="180"/>
+  </picture>
+  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=transparent&langs_count=20&disable_animations=true" height="180">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"/>
+  </picture>
 </p>
 
 
 <p align="center">
 <picture>
-  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"/></picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"> 
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="230">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230">
 </p>
 
 
-<p align="center"><img width="690" src="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" alt=""></p>
+<p align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690"> 
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&row=1" width="690">
+  <img src="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690">
+</p>
 
 
 <p align="center">
