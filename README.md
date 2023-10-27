@@ -6,11 +6,10 @@
 </p>
 -->
 
-
+<!-- Technology Stack -->
 <h2 align="center">Technology Stack</h2>
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80">
-</div>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80"></div>
 
 <p align="center">
 <a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
@@ -37,15 +36,15 @@
 <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/-MySQL-%230d1117?style=flat-square&logo=mysql"/></a>
 <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/-Git-%230d1117?style=flat-square&logo=git"/></a>
 <a href="https://jupyter.org/"><img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=flat-square&logo=jupyter"/></a>
-<a href="https://html.spec.whatwg.org/multipage/"><img src="https://img.shields.io/badge/-Html-%230d1117?style=flat-square&logo=html5"/>
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown"/>
-<a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701"><img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal"/>
-<a href="https://echarts.apache.org/index.html"><img src="https://img.shields.io/badge/-Echarts-%230d1117?style=flat-square&logo=apacheecharts"/>
-<a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-Vim-%230d1117?style=flat-square&logo=vim"/>
-<a href="https://neovim.io/"><img src="https://img.shields.io/badge/-Neovim-%230d1117?style=flat-square&logo=neovim"/>
-<a href="https://www.lua.org/"><img src="https://img.shields.io/badge/-Lua-%230d1117?style=flat-square&logo=lua"/>
-<a href="https://www.jetbrains.com/pycharm/"><img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/>
-<a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/>
+<a href="https://html.spec.whatwg.org/multipage/"><img src="https://img.shields.io/badge/-Html-%230d1117?style=flat-square&logo=html5"/></a>
+<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown"/></a>
+<a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701"><img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal"/></a>
+<a href="https://echarts.apache.org/index.html"><img src="https://img.shields.io/badge/-Echarts-%230d1117?style=flat-square&logo=apacheecharts"/></a>
+<a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-Vim-%230d1117?style=flat-square&logo=vim"/></a>
+<a href="https://neovim.io/"><img src="https://img.shields.io/badge/-Neovim-%230d1117?style=flat-square&logo=neovim"/></a>
+<a href="https://www.lua.org/"><img src="https://img.shields.io/badge/-Lua-%230d1117?style=flat-square&logo=lua"/></a>
+<a href="https://www.jetbrains.com/pycharm/"><img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/></a>
 </p>
 
 
@@ -61,16 +60,11 @@
 <h2 align="center">Small Contribution</h2>  
 
 <div align="center">
-  <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="80">
-</div>
+  <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="80"></div>
 
 <p align="center">
-  <a href="https://github.com/TheAlgorithms/Python">
-    <img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
-  </a>
-  <a href="https://github.com/dataease/dataease">
-  <img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" />
-  </a>
+  <a href="https://github.com/TheAlgorithms/Python"><img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" /></a>
+  <a href="https://github.com/dataease/dataease"><img align="center" width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" /></a>
 </p>
 
 
@@ -79,13 +73,10 @@
 <h2 align="center">Reach Me</h2>  
 
 <div align="center">
-  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80">
-</div>
+  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80"></div>
 
 <p align="center">
-  <a href="https://github.com/weiensong">
-    <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/>
-  </a>
+  <a href="https://github.com/weiensong"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/></a>
   <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=flat-square&logo=gmail"/>
 </p>
 
@@ -95,8 +86,7 @@
 <!-- Some statistics -->
 <h2 align="center">Some Statistics</h2>  
 <div align="center">
-  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="80">
-</div>
+  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="80"></div>
 
 <p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true&disable_animations=true" />
@@ -106,8 +96,7 @@
 
 <p align="center">
 <picture>
-  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"/>
-</picture>
+  <img alt="github activity" src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"/></picture>
 </p>
 
 
