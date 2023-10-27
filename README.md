@@ -9,52 +9,213 @@
 <!-- Technology Stack -->
 <h2 align="center">Technology Stack</h2>
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80"></div>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80">
+</div>
 
-
+<!-- -----------------------------------------------------------------shields.io------------------------------------------------------------------------ -->
 <p align="center"> 
-<picture href="https://www.python.org/" >
-  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"> 
-  <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=plastic&logo=python">
-  <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"/>
-</picture>
-<a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=plastic&logo=openjdk"/></a>
-<a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=plastic&logo=c"/></a>
-<a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=plastic&logo=scala"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/-JavaScript-%230d1117?style=plastic&logo=javascript"/></a>
-<a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/-R-%230d1117?style=plastic&logo=r"/></a>
-<a href="https://www.microsoft.com/"><img src="https://img.shields.io/badge/-Windows-%230d1117?style=plastic&logo=windows"/></a>
-<a href="https://www.linux.org/"><img src="https://img.shields.io/badge/-Linux-%230d1117?style=plastic&logo=linux"/></a>
-<a href="https://www.centos.org/"><img src="https://img.shields.io/badge/-CentOS-%230d1117?style=plastic&logo=centos"/></a>
-<a href="https://ubuntu.com/"><img src="https://img.shields.io/badge/-Ubuntu-%230d1117?style=plastic&logo=ubuntu"/></a>
-<a href="https://www.redhat.com/"><img src="https://img.shields.io/badge/-RedHat-%230d1117?style=plastic&logo=redhat"/></a>
-<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/-Docker-%230d1117?style=plastic&logo=docker"/></a>
-<a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Apache-%230d1117?style=plastic&logo=apache"/></a>
-<a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=plastic&logo=apachehadoop"/></a>
-<a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/-Spark-%230d1117?style=plastic&logo=apachespark"/></a>
-<a href="https://hive.apache.org/"><img src="https://img.shields.io/badge/-Hive-%230d1117?style=plastic&logo=apachehive"/></a>
-<a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/-Maven-%230d1117?style=plastic&logo=apachemaven"/></a>
-<a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/-Selenium-%230d1117?style=plastic&logo=selenium"/></a>
-<a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/-FastAPI-%230d1117?style=plastic&logo=fastapi"/></a>
-<a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/-Pandas-%230d1117?style=plastic&logo=pandas"/></a>
-<a href="https://numpy.org/"><img src="https://img.shields.io/badge/-Numpy-%230d1117?style=plastic&logo=numpy"/></a>
-<a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/-MySQL-%230d1117?style=plastic&logo=mysql"/></a>
-<a href="https://git-scm.com/"><img src="https://img.shields.io/badge/-Git-%230d1117?style=plastic&logo=git"/></a>
-<a href="https://jupyter.org/"><img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=plastic&logo=jupyter"/></a>
-<a href="https://html.spec.whatwg.org/multipage/"><img src="https://img.shields.io/badge/-Html-%230d1117?style=plastic&logo=html5"/></a>
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/-Markdown-%230d1117?style=plastic&logo=markdown"/></a>
-<a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701"><img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=plastic&logo=windowsterminal"/></a>
-<a href="https://echarts.apache.org/index.html"><img src="https://img.shields.io/badge/-Echarts-%230d1117?style=plastic&logo=apacheecharts"/></a>
-<a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-Vim-%230d1117?style=plastic&logo=vim"/></a>
-<a href="https://neovim.io/"><img src="https://img.shields.io/badge/-Neovim-%230d1117?style=plastic&logo=neovim"/></a>
-<a href="https://www.lua.org/"><img src="https://img.shields.io/badge/-Lua-%230d1117?style=plastic&logo=lua"/></a>
-<a href="https://www.jetbrains.com/pycharm/"><img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=plastic&logo=pycharm"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=plastic&logo=intellijidea"/></a>
+  <picture href="https://www.python.org/" >
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=plastic&logo=python">
+    <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"/>
+  </picture>
+  
+  <picture href="https://www.java.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Java-%230d1117?style=plastic&logo=openjdk"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Java-rgb(242%2C%20242%2C%20242)?style=plastic&logo=openjdk">
+    <img src="https://img.shields.io/badge/-Java-%230d1117?style=plastic&logo=openjdk"/>
+  </picture>
+  
+  <picture href="https://www.open-std.org/jtc1/sc22/wg14/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-C-%230d1117?style=plastic&logo=c"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-C-rgb(242%2C%20242%2C%20242)?style=plastic&logo=c">
+    <img src="https://img.shields.io/badge/-C-%230d1117?style=plastic&logo=c"/>
+  </picture>
+  
+  <picture href="https://www.scala-lang.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Scala-%230d1117?style=plastic&logo=scala"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Scala-rgb(242%2C%20242%2C%20242)?style=plastic&logo=scala">
+    <img src="https://img.shields.io/badge/-Scala-%230d1117?style=plastic&logo=scala"/>
+  </picture>
+  
+  <picture href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-JavaScript-%230d1117?style=plastic&logo=javascript"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=plastic&logo=javascript">
+    <img src="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=plastic&logo=javascript"/>
+  </picture>
+  
+  <picture href="https://www.r-project.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-R-%230d1117?style=plastic&logo=r"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-R-rgb(242%2C%20242%2C%20242)?style=plastic&logo=r">
+    <img src="https://img.shields.io/badge/-R-%230d1117?style=plastic&logo=r"/>
+  </picture>
+  
+  <picture href="https://www.microsoft.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows-%230d1117?style=plastic&logo=windows"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows-rgb(242%2C%20242%2C%20242)?style=plastic&logo=windows">
+    <img src="https://img.shields.io/badge/-Windows-%230d1117?style=plastic&logo=windows"/>
+  </picture>
+  
+  <picture href="https://www.linux.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Linux-%230d1117?style=plastic&logo=linux"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Linux-rgb(242%2C%20242%2C%20242)?style=plastic&logo=linux">
+    <img src="https://img.shields.io/badge/-Linux-%230d1117?style=plastic&logo=linux"/>
+  </picture>
+  
+  <picture href="https://www.centos.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-CentOS-%230d1117?style=plastic&logo=centos"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-CentOS-rgb(242%2C%20242%2C%20242)?style=plastic&logo=centos">
+    <img src="https://img.shields.io/badge/-CentOS-%230d1117?style=plastic&logo=centos"/>
+  </picture>
+  
+  <picture href="https://ubuntu.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Ubuntu-%230d1117?style=plastic&logo=ubuntu"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Ubuntu-rgb(242%2C%20242%2C%20242)?style=plastic&logo=ubuntu">
+    <img src="https://img.shields.io/badge/-Ubuntu-%230d1117?style=plastic&logo=ubuntu"/>
+  </picture>
+  
+  <picture href="https://www.redhat.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-RedHat-%230d1117?style=plastic&logo=redhat"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-RedHat-rgb(242%2C%20242%2C%20242)?style=plastic&logo=redhat">
+    <img src="https://img.shields.io/badge/-RedHat-%230d1117?style=plastic&logo=redhat"/>
+  </picture>
+  
+  <picture href="https://www.docker.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Docker-%230d1117?style=plastic&logo=docker"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Docker-rgb(242%2C%20242%2C%20242)?style=plastic&logo=docker">
+    <img src="https://img.shields.io/badge/-Docker-%230d1117?style=plastic&logo=docker"/>
+  </picture>
+  
+  <picture href="https://hadoop.apache.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Apache-%230d1117?style=plastic&logo=apache"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Apache-rgb(242%2C%20242%2C%20242)?style=plastic&logo=apache">
+    <img src="https://img.shields.io/badge/-Apache-%230d1117?style=plastic&logo=apache"/>
+  </picture>
+  
+  <picture href="https://hadoop.apache.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Hadoop-%230d1117?style=plastic&logo=apachehadoop"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Hadoop-rgb(242%2C%20242%2C%20242)?style=plastic&logo=apachehadoop">
+    <img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=plastic&logo=apachehadoop"/>
+  </picture>
+  
+  <picture href="https://spark.apache.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Spark-%230d1117?style=plastic&logo=apachespark"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Spark-rgb(242%2C%20242%2C%20242)?style=plastic&logo=apachespark">
+    <img src="https://img.shields.io/badge/-Spark-%230d1117?style=plastic&logo=apachespark"/>
+  </picture>
+  
+  <picture href="https://hive.apache.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Hive-%230d1117?style=plastic&logo=apachehive"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Hive-rgb(242%2C%20242%2C%20242)?style=plastic&logo=apachehive">
+    <img src="https://img.shields.io/badge/-Hive-%230d1117?style=plastic&logo=apachehive"/>
+  </picture>
+  
+  <picture href="https://maven.apache.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Maven-%230d1117?style=plastic&logo=apachemaven"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Maven-rgb(242%2C%20242%2C%20242)?style=plastic&logo=apachemaven">
+    <img src="https://img.shields.io/badge/-Maven-%230d1117?style=plastic&logo=apachemaven"/>
+  </picture>
+  
+  <picture href="https://www.selenium.dev/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Selenium-%230d1117?style=plastic&logo=selenium"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Selenium-rgb(242%2C%20242%2C%20242)?style=plastic&logo=selenium">
+    <img src="https://img.shields.io/badge/-Selenium-%230d1117?style=plastic&logo=selenium"/>
+  </picture>
+  
+  <picture href="https://fastapi.tiangolo.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-FastAPI-%230d1117?style=plastic&logo=fastapi"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-FastAPI-rgb(242%2C%20242%2C%20242)?style=plastic&logo=fastapi">
+    <img src="https://img.shields.io/badge/-FastAPI-%230d1117?style=plastic&logo=fastapi"/>
+  </picture>
+  
+  <picture href="https://pandas.pydata.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Pandas-%230d1117?style=plastic&logo=pandas"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Pandas-rgb(242%2C%20242%2C%20242)?style=plastic&logo=pandas">
+    <img src="https://img.shields.io/badge/-Pandas-%230d1117?style=plastic&logo=pandas"/>
+  </picture>
+  
+  <picture href="https://numpy.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Numpy-%230d1117?style=plastic&logo=numpy"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Numpy-rgb(242%2C%20242%2C%20242)?style=plastic&logo=numpy">
+    <img src="https://img.shields.io/badge/-Numpy-%230d1117?style=plastic&logo=numpy"/>
+  </picture>
+  
+  <picture href="https://www.mysql.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-MySQL-%230d1117?style=plastic&logo=mysql"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-MySQL-rgb(242%2C%20242%2C%20242)?style=plastic&logo=mysql">
+    <img src="https://img.shields.io/badge/-MySQL-%230d1117?style=plastic&logo=mysql"/>
+  </picture>
+  
+  <picture href="https://git-scm.com/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Git-%230d1117?style=plastic&logo=git"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Git-rgb(242%2C%20242%2C%20242)?style=plastic&logo=git">
+    <img src="https://img.shields.io/badge/-Git-%230d1117?style=plastic&logo=git"/>
+  </picture>
+  
+  <picture href="https://jupyter.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Jupyter-%230d1117?style=plastic&logo=jupyter"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Jupyter-rgb(242%2C%20242%2C%20242)?style=plastic&logo=jupyter">
+    <img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=plastic&logo=jupyter"/>
+  </picture>
+  
+  <picture href="https://html.spec.whatwg.org/multipage/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Html-%230d1117?style=plastic&logo=html5"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Html-rgb(242%2C%20242%2C%20242)?style=plastic&logo=html5">
+    <img src="https://img.shields.io/badge/-Html-%230d1117?style=plastic&logo=html5"/>
+  </picture>
+  
+  <picture href="https://www.markdownguide.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Markdown-%230d1117?style=plastic&logo=markdown"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Markdown-rgb(242%2C%20242%2C%20242)?style=plastic&logo=markdown">
+    <img src="https://img.shields.io/badge/-Markdown-%230d1117?style=plastic&logo=markdown"/>
+  </picture>
+  
+  <picture href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=plastic&logo=windowsterminal"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows Terminal-rgb(242%2C%20242%2C%20242)?style=plastic&logo=windowsterminal">
+    <img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=plastic&logo=windowsterminal"/>
+  </picture>
+  
+  <picture href="https://echarts.apache.org/index.html">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Echarts-%230d1117?style=plastic&logo=apacheecharts"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Echarts-rgb(242%2C%20242%2C%20242)?style=plastic&logo=apacheecharts">
+    <img src="https://img.shields.io/badge/-Echarts-%230d1117?style=plastic&logo=apacheecharts"/>
+  </picture>
+  
+  <picture href="https://www.vim.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Vim-%230d1117?style=plastic&logo=vim"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Vim-rgb(242%2C%20242%2C%20242)?style=plastic&logo=vim">
+    <img src="https://img.shields.io/badge/-Vim-%230d1117?style=plastic&logo=vim"/>
+  </picture>
+  
+  <picture href="https://neovim.io/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Neovim-%230d1117?style=plastic&logo=neovim"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Neovim-rgb(242%2C%20242%2C%20242)?style=plastic&logo=neovim">
+    <img src="https://img.shields.io/badge/-Neovim-%230d1117?style=plastic&logo=neovim"/>
+  </picture>
+  
+  <picture href="https://www.lua.org/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Lua-%230d1117?style=plastic&logo=lua"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Lua-rgb(242%2C%20242%2C%20242)?style=plastic&logo=lua">
+    <img src="https://img.shields.io/badge/-Lua-%230d1117?style=plastic&logo=lua"/>
+  </picture>
+  
+  <picture href="https://www.jetbrains.com/pycharm/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Pycharm-%230d1117?style=plastic&logo=pycharm"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Pycharm-rgb(242%2C%20242%2C%20242)?style=plastic&logo=pycharm">
+    <img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=plastic&logo=pycharm"/>
+  </picture>
+  
+  <picture href="https://www.jetbrains.com/idea/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Idea-%230d1117?style=plastic&logo=intellijidea"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Idea-rgb(242%2C%20242%2C%20242)?style=plastic&logo=intellijidea">
+    <img src="https://img.shields.io/badge/-Idea-%230d1117?style=plastic&logo=intellijidea"/>
+  </picture>
 </p>
 
 
 
-<!--   my-header-img -->
+
 ![](./.src/header_.png)
 <a href="https://www.python.org/"><img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" ></a>
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!)](https://git.io/typing-svg)
@@ -81,8 +242,17 @@
   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80"></div>
 
 <p align="center">
-  <a href="https://github.com/weiensong/weiensong/issues/1"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=plastic&logo=github"/></a>
-  <a href="mailto:touer0018@gmail.com"> <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=plastic&logo=gmail"/></a>
+  <picture href="https://www.jetbrains.com/pycharm/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-GitHub-%230d1117?style=plastic&logo=github"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-GitHub-rgb(242%2C%20242%2C%20242)?style=plastic&logo=github">
+    <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=plastic&logo=github"/>
+  </picture>
+  
+  <picture href="https://www.jetbrains.com/idea/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=plastic&logo=gmail"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-rgb(242%2C%20242%2C%20242)?style=plastic&logo=gmail">
+    <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=plastic&logo=gmail"/>
+  </picture>
 </p>
 
 
