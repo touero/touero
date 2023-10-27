@@ -11,40 +11,50 @@
 <div align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80"></div>
 
+.dark-mode {
+  color: #ffffff;
+  background-color: #0d1117;
+}
+
+/* Light mode */
+.light-mode {
+  color: #000000;
+  background-color: rgb(242, 242, 242);
+}
 <p align="center">
-<a href="https://www.python.org/" ><img src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python"/></a>
-<a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk"/></a>
-<a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=flat-square&logo=c"/></a>
-<a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=flat-square&logo=scala"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/-JavaScript-%230d1117?style=flat-square&logo=javascript"/></a>
-<a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/-R-%230d1117?style=flat-square&logo=r"/></a>
-<a href="https://www.microsoft.com/"><img src="https://img.shields.io/badge/-Windows-%230d1117?style=flat-square&logo=windows"/></a>
-<a href="https://www.linux.org/"><img src="https://img.shields.io/badge/-Linux-%230d1117?style=flat-square&logo=linux"/></a>
-<a href="https://www.centos.org/"><img src="https://img.shields.io/badge/-CentOS-%230d1117?style=flat-square&logo=centos"/></a>
-<a href="https://ubuntu.com/"><img src="https://img.shields.io/badge/-Ubuntu-%230d1117?style=flat-square&logo=ubuntu"/></a>
-<a href="https://www.redhat.com/"><img src="https://img.shields.io/badge/-RedHat-%230d1117?style=flat-square&logo=redhat"/></a>
-<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/-Docker-%230d1117?style=flat-square&logo=docker"/></a>
-<a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Apache-%230d1117?style=flat-square&logo=apache"/></a>
-<a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=flat-square&logo=apachehadoop"/></a>
-<a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/-Spark-%230d1117?style=flat-square&logo=apachespark"/></a>
-<a href="https://hive.apache.org/"><img src="https://img.shields.io/badge/-Hive-%230d1117?style=flat-square&logo=apachehive"/></a>
-<a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/-Maven-%230d1117?style=flat-square&logo=apachemaven"/></a>
-<a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/-Selenium-%230d1117?style=flat-square&logo=selenium"/></a>
-<a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/-FastAPI-%230d1117?style=flat-square&logo=fastapi"/></a>
-<a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/-Pandas-%230d1117?style=flat-square&logo=pandas"/></a>
-<a href="https://numpy.org/"><img src="https://img.shields.io/badge/-Numpy-%230d1117?style=flat-square&logo=numpy"/></a>
-<a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/-MySQL-%230d1117?style=flat-square&logo=mysql"/></a>
-<a href="https://git-scm.com/"><img src="https://img.shields.io/badge/-Git-%230d1117?style=flat-square&logo=git"/></a>
-<a href="https://jupyter.org/"><img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=flat-square&logo=jupyter"/></a>
-<a href="https://html.spec.whatwg.org/multipage/"><img src="https://img.shields.io/badge/-Html-%230d1117?style=flat-square&logo=html5"/></a>
-<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown"/></a>
-<a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701"><img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal"/></a>
-<a href="https://echarts.apache.org/index.html"><img src="https://img.shields.io/badge/-Echarts-%230d1117?style=flat-square&logo=apacheecharts"/></a>
-<a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-Vim-%230d1117?style=flat-square&logo=vim"/></a>
-<a href="https://neovim.io/"><img src="https://img.shields.io/badge/-Neovim-%230d1117?style=flat-square&logo=neovim"/></a>
-<a href="https://www.lua.org/"><img src="https://img.shields.io/badge/-Lua-%230d1117?style=flat-square&logo=lua"/></a>
-<a href="https://www.jetbrains.com/pycharm/"><img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=flat-square&logo=pycharm"/></a>
-<a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=flat-square&logo=intellijidea"/></a>
+<a href="https://www.python.org/" ><img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=plastic&logo=python"/></a>
+<a href="https://www.java.com/"><img src="https://img.shields.io/badge/-Java-%230d1117?style=plastic&logo=openjdk"/></a>
+<a href="https://www.open-std.org/jtc1/sc22/wg14/"><img src="https://img.shields.io/badge/-C-%230d1117?style=plastic&logo=c"/></a>
+<a href="https://www.scala-lang.org/"><img src="https://img.shields.io/badge/-Scala-%230d1117?style=plastic&logo=scala"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/-JavaScript-%230d1117?style=plastic&logo=javascript"/></a>
+<a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/-R-%230d1117?style=plastic&logo=r"/></a>
+<a href="https://www.microsoft.com/"><img src="https://img.shields.io/badge/-Windows-%230d1117?style=plastic&logo=windows"/></a>
+<a href="https://www.linux.org/"><img src="https://img.shields.io/badge/-Linux-%230d1117?style=plastic&logo=linux"/></a>
+<a href="https://www.centos.org/"><img src="https://img.shields.io/badge/-CentOS-%230d1117?style=plastic&logo=centos"/></a>
+<a href="https://ubuntu.com/"><img src="https://img.shields.io/badge/-Ubuntu-%230d1117?style=plastic&logo=ubuntu"/></a>
+<a href="https://www.redhat.com/"><img src="https://img.shields.io/badge/-RedHat-%230d1117?style=plastic&logo=redhat"/></a>
+<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/-Docker-%230d1117?style=plastic&logo=docker"/></a>
+<a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Apache-%230d1117?style=plastic&logo=apache"/></a>
+<a href="https://hadoop.apache.org/"><img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=plastic&logo=apachehadoop"/></a>
+<a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/-Spark-%230d1117?style=plastic&logo=apachespark"/></a>
+<a href="https://hive.apache.org/"><img src="https://img.shields.io/badge/-Hive-%230d1117?style=plastic&logo=apachehive"/></a>
+<a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/-Maven-%230d1117?style=plastic&logo=apachemaven"/></a>
+<a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/-Selenium-%230d1117?style=plastic&logo=selenium"/></a>
+<a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/-FastAPI-%230d1117?style=plastic&logo=fastapi"/></a>
+<a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/-Pandas-%230d1117?style=plastic&logo=pandas"/></a>
+<a href="https://numpy.org/"><img src="https://img.shields.io/badge/-Numpy-%230d1117?style=plastic&logo=numpy"/></a>
+<a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/-MySQL-%230d1117?style=plastic&logo=mysql"/></a>
+<a href="https://git-scm.com/"><img src="https://img.shields.io/badge/-Git-%230d1117?style=plastic&logo=git"/></a>
+<a href="https://jupyter.org/"><img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=plastic&logo=jupyter"/></a>
+<a href="https://html.spec.whatwg.org/multipage/"><img src="https://img.shields.io/badge/-Html-%230d1117?style=plastic&logo=html5"/></a>
+<a href="https://www.markdownguide.org/"><img src="https://img.shields.io/badge/-Markdown-%230d1117?style=plastic&logo=markdown"/></a>
+<a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701"><img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=plastic&logo=windowsterminal"/></a>
+<a href="https://echarts.apache.org/index.html"><img src="https://img.shields.io/badge/-Echarts-%230d1117?style=plastic&logo=apacheecharts"/></a>
+<a href="https://www.vim.org/"><img src="https://img.shields.io/badge/-Vim-%230d1117?style=plastic&logo=vim"/></a>
+<a href="https://neovim.io/"><img src="https://img.shields.io/badge/-Neovim-%230d1117?style=plastic&logo=neovim"/></a>
+<a href="https://www.lua.org/"><img src="https://img.shields.io/badge/-Lua-%230d1117?style=plastic&logo=lua"/></a>
+<a href="https://www.jetbrains.com/pycharm/"><img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=plastic&logo=pycharm"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/-Idea-%230d1117?style=plastic&logo=intellijidea"/></a>
 </p>
 
 
@@ -76,8 +86,8 @@
   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80"></div>
 
 <p align="center">
-  <a href="https://github.com/weiensong/weiensong/issues/1"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github"/></a>
-  <a href="mailto:touer0018@gmail.com"> <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=flat-square&logo=gmail"/></a>
+  <a href="https://github.com/weiensong/weiensong/issues/1"><img src="https://img.shields.io/badge/-GitHub-%230d1117?style=plastic&logo=github"/></a>
+  <a href="mailto:touer0018@gmail.com"> <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=plastic&logo=gmail"/></a>
 </p>
 
 
