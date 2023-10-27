@@ -288,26 +288,29 @@
 
 
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"> 
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="230">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="230">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230">
+  </picture>
 </p>
 
 
 <p align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690"> 
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&row=1" width="690">
-  <img src="https://github-profile-trophy.vercel.app/?username=weiensong&row=1" width="690">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&row=1" width="690">
+    <img src="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690">
+  </picture>
 </p>
 
 
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
+  </picture>
 </p>  
 
 
