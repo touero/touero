@@ -318,7 +318,9 @@
 
 
 #### counting of visitors to this page in this section started from OCT 23 2023 
-![](https://count.getloli.com/get/@weiensong?theme=asoul)</br>
+<picture>
+    <img src="https://count.getloli.com/get/@weiensong?theme=asoul">
+</picture>
 
 
 
