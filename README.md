@@ -211,6 +211,12 @@
     <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Idea-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=intellijidea">
     <img src="https://img.shields.io/badge/-Idea-%230d1117?style=for-the-badge&logo=intellijidea&color=%23696969"/>
   </picture>
+
+  <picture href="https://www.jetbrains.com/idea/">
+    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-vscode-%230d1117?style=for-the-badge&logo=visualstudiocode&color=%23696969"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-vscode-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=visualstudiocode">
+    <img src="https://img.shields.io/badge/-vscode-%230d1117?style=for-the-badge&logo=visualstudiocode&color=%23696969"/>
+  </picture>
 </p>
 
 
