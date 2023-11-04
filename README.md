@@ -14,11 +14,13 @@
 
 <!-- -----------------------------------------------------------------shields.io------------------------------------------------------------------------ -->
 <p align="center"> 
-  <picture href="https://www.python.org/" >
-    <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"> 
-    <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=python">
-    <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"/>
-  </picture>
+  <a href="https://www.python.org/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"> 
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=python">
+      <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"/>
+    </picture>
+  </a>
   
   <picture href="https://www.java.com/">
     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Java-%230d1117?style=for-the-badge&logo=openjdk&color=%23696969"> 
