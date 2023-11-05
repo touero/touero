@@ -297,7 +297,7 @@ Here are some ideas to get you started:
     </picture>
   </a>
 
-  <a href="https://www.jetbrains.com/idea/">
+  <a href="https://code.visualstudio.com/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-vscode-%230d1117?style=for-the-badge&logo=visualstudiocode&color=%23696969"> 
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-vscode-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=visualstudiocode">
@@ -348,7 +348,7 @@ Here are some ideas to get you started:
   <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80"></div>
 
 <p align="center">
-  <a href="https://www.jetbrains.com/pycharm/">
+  <a href="https://github.com/weiensong/weiensong/issues/1">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-GitHub-%230d1117?style=for-the-badge&logo=github&color=%23696969"> 
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-GitHub-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=github">
@@ -356,7 +356,7 @@ Here are some ideas to get you started:
     </picture>
   </a>
   
-  <a href="https://www.jetbrains.com/idea/">
+  <a href="mailto:touer0018@gmail.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=for-the-badge&logo=gmail&color=%23696969"> 
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=gmail">
