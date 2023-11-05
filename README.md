@@ -328,16 +328,9 @@ Here are some ideas to get you started:
     </tr>
 </table>
 
-<!-- Reach me -->
-<a href="https://www.python.org/">
-  
-</a>  
 
 
- 
-
-
-<!-- Some statistics -->
+<!-- statistics -->
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true&disable_animations=true" height="180"> 
@@ -350,18 +343,31 @@ Here are some ideas to get you started:
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=transparent&langs_count=20&disable_animations=true" height="180">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"/>
   </picture>
+  
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" align="left" width="230">
 </p>
 
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"> 
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="230">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="200"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="200">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="200">
   </picture>
+  <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="200">
 </p>
 
+<!-- snake -->
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
+  </picture>
+  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="200">
+</p>  
 
+<!-- medal -->
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690"> 
@@ -371,13 +377,6 @@ Here are some ideas to get you started:
 </p>
 
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
-  </picture>
-</p>  
 
 
 
@@ -387,9 +386,6 @@ Here are some ideas to get you started:
 <picture>
     <img src="https://count.getloli.com/get/@weiensong?theme=asoul">
 </picture>
-
-
-
 
 <p>
   <a href="https://github.com/weiensong/weiensong/issues/1">
