@@ -26,13 +26,16 @@ Here are some ideas to get you started:
 -->
 
 <!-- Technology Stack -->
-<h2 align="center">Technology Stack</h2>
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" width="80">
-</div>
+![](./.src/header_.png)
+<a href="https://www.python.org/">
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" >
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!" align="left">
+</a>
 
-<!-- -----------------------------------------------------------------shields.io------------------------------------------------------------------------ -->
-<p align="center"> 
+<table style="width:100px">
+    <tr>
+        <td width="50%" height="200%"><p>
+          <!-- -----------------------------------------------------------------shields.io------------------------------------------------------------------------ -->
   <a href="https://www.python.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"> 
@@ -40,7 +43,7 @@ Here are some ideas to get you started:
       <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"/>
     </picture>
   </a>
-  
+
   <a href="https://www.java.com/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Java-%230d1117?style=for-the-badge&logo=openjdk&color=%23696969"> 
@@ -48,7 +51,7 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-Java-%230d1117?style=for-the-badge&logo=openjdk&color=&color=%23696969"/>
     </picture>
    </a>
-  
+
   <a href="https://www.open-std.org/jtc1/sc22/wg14/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-C-%230d1117?style=for-the-badge&logo=c&color=%23696969"> 
@@ -72,7 +75,7 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=javascript&color=%23696969"/>
     </picture>
   </a>
-  
+
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
     <picture href="https://www.r-project.org/">
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-R-%230d1117?style=for-the-badge&logo=r&color=%23696969"> 
@@ -88,7 +91,7 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-Windows-%230d1117?style=for-the-badge&logo=windows&color=%23696969"/>
     </picture>
   </a>
-  
+
   <a href="https://www.linux.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Linux-%230d1117?style=for-the-badge&logo=linux&color=%23696969"> 
@@ -96,7 +99,7 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-Linux-%230d1117?style=for-the-badge&logo=linux&color=%23696969"/>
     </picture>
   </a>
-  
+
   <a href="https://www.centos.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-CentOS-%230d1117?style=for-the-badge&logo=centos&color=%23696969"> 
@@ -128,7 +131,7 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-Docker-%230d1117?style=for-the-badge&logo=docker&color=%23696969"/>
     </picture>
   </a>
-  
+
   <a href="https://hadoop.apache.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Apache-%230d1117?style=for-the-badge&logo=apache&color=%23696969"> 
@@ -160,7 +163,7 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-Hive-%230d1117?style=for-the-badge&logo=apachehive&color=%23696969"/>
     </picture>
   </a>
-  
+
   <a href="https://maven.apache.org/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Maven-%230d1117?style=for-the-badge&logo=apachemaven&color=%23696969"> 
@@ -168,7 +171,7 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-Maven-%230d1117?style=for-the-badge&logo=apachemaven&color=%23696969"/>
     </picture>
   </a>
- 
+
   <a href="https://www.selenium.dev/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Selenium-%230d1117?style=for-the-badge&logo=selenium&color=%23696969"> 
@@ -304,76 +307,31 @@ Here are some ideas to get you started:
       <img src="https://img.shields.io/badge/-vscode-%230d1117?style=for-the-badge&logo=visualstudiocode&color=%23696969"/>
     </picture>
   </a>
-</p>
-
-
-
-
-![](./.src/header_.png)
-<a href="https://www.python.org/"><img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" ></a>
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!)](https://git.io/typing-svg)
-
-
-
-<!-- Small contribution -->
-<h2 align="center">Small Contribution</h2>  
-<div align="center">
-  <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="80">
-</div>
-
-<p align="center">
+</p></td>
+        <td><p align="center">
   <a href="https://github.com/TheAlgorithms/Python">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350"> 
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&disable_animations=true" align="center" width="350"> 
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="400"> 
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&disable_animations=true" align="center" width="400"> 
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=TheAlgorithms&repo=Python&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="400">
     </picture>
   </a>
 
   <a href="https://github.com/dataease/dataease">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350"> 
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&disable_animations=true" align="center" width="350"> 
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="350">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="400"> 
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&disable_animations=true" align="center" width="400"> 
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=dataease&repo=dataease&title_color=a15619&icon_color=84628f&text_color=e6edf3&bg_color=242424&disable_animations=true" align="center" width="400">
     </picture>
   </a>
-</p>
+</p></td>
+    </tr>
+</table>
 
 
 
-<!-- Reach me -->
-<h2 align="center">Reach Me</h2>  
-
-<div align="center">
-  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="80"></div>
-
-<p align="center">
-  <a href="https://github.com/weiensong/weiensong/issues/1">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-GitHub-%230d1117?style=for-the-badge&logo=github&color=%23696969"> 
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-GitHub-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=github">
-      <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=for-the-badge&logo=github&color=%23696969"/>
-    </picture>
-  </a>
-  
-  <a href="mailto:touer0018@gmail.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=for-the-badge&logo=gmail&color=%23696969"> 
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=gmail">
-      <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=for-the-badge&logo=gmail&color=%23696969"/>
-    </picture>
-  </a>
-</p>
-
-
-
-
-<!-- Some statistics -->
-<h2 align="center">Some Statistics</h2>  
-<div align="center">
-  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="80"></div>
-
-<p align="center">
+<!-- statistics -->
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=darcula&include_all_commits=true&disable_animations=true" height="180"> 
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=weiensong&show_icons=true&theme=transparent&include_all_commits=true&disable_animations=true" height="180">
@@ -385,19 +343,32 @@ Here are some ideas to get you started:
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=transparent&langs_count=20&disable_animations=true" height="180">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"/>
   </picture>
+  
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" align="left" width="130">
 </p>
 
 
-<p align="center">
+<p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230"> 
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="230">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="230">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="200"> 
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="200">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=weiensong&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="200">
   </picture>
+  <img src="https://media.giphy.com/media/8e7IQjEdnkivIk81C2/giphy.gif" width="130">
 </p>
 
+<!-- snake -->
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
+  </picture>
+  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="130">
+</p>  
 
-<p align="center">
+<!-- medal -->
+<p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&theme=gruvbox&row=1" width="690"> 
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=weiensong&row=1" width="690">
@@ -406,13 +377,6 @@ Here are some ideas to get you started:
 </p>
 
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/weiensong/weiensong/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
-  </picture>
-</p>  
 
 
 
@@ -423,7 +387,22 @@ Here are some ideas to get you started:
     <img src="https://count.getloli.com/get/@weiensong?theme=asoul">
 </picture>
 
-
-
+<p>
+  <a href="https://github.com/weiensong/weiensong/issues/1">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-GitHub-%230d1117?style=for-the-badge&logo=github&color=%23696969"> 
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-GitHub-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=github">
+      <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=for-the-badge&logo=github&color=%23696969"/>
+    </picture>
+  </a>
+  <a href="mailto:touer0018@gmail.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=for-the-badge&logo=gmail&color=%23696969"> 
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=gmail">
+      <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=for-the-badge&logo=gmail&color=%23696969"/>
+    </picture>
+  </a>
+<img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" height="60" width="60" >
+</p>
 
 [MIT](https://github.com/weiensong/weiensong/blob/main/.universal/LICENSE)
