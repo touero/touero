@@ -36,240 +36,240 @@ Here are some ideas to get you started:
           <!-- -----------------------------------------------------------------shields.io------------------------------------------------------------------------ -->
           <a href="https://www.python.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=python">
-              <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=for-the-badge&logo=python&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=social&logo=python&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=social&logo=python">
+              <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=social&logo=python&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.java.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Java-%230d1117?style=for-the-badge&logo=openjdk&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Java-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=openjdk">
-              <img src="https://img.shields.io/badge/-Java-%230d1117?style=for-the-badge&logo=openjdk&color=&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Java-%230d1117?style=social&logo=openjdk&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Java-rgb(242%2C%20242%2C%20242)?style=social&logo=openjdk">
+              <img src="https://img.shields.io/badge/-Java-%230d1117?style=social&logo=openjdk&color=&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.open-std.org/jtc1/sc22/wg14/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-C-%230d1117?style=for-the-badge&logo=c&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-C-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=c">
-              <img src="https://img.shields.io/badge/-C-%230d1117?style=for-the-badge&logo=c&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-C-%230d1117?style=social&logo=c&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-C-rgb(242%2C%20242%2C%20242)?style=social&logo=c">
+              <img src="https://img.shields.io/badge/-C-%230d1117?style=social&logo=c&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.scala-lang.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Scala-%230d1117?style=for-the-badge&logo=scala&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Scala-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=scala">
-              <img src="https://img.shields.io/badge/-Scala-%230d1117?style=for-the-badge&logo=scala&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Scala-%230d1117?style=social&logo=scala&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Scala-rgb(242%2C%20242%2C%20242)?style=social&logo=scala">
+              <img src="https://img.shields.io/badge/-Scala-%230d1117?style=social&logo=scala&color=%23696969"/>
             </picture>
           </a>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-JavaScript-%230d1117?style=for-the-badge&logo=javascript&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=javascript">
-              <img src="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=javascript&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-JavaScript-%230d1117?style=social&logo=javascript&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=social&logo=javascript">
+              <img src="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=social&logo=javascript&color=%23696969"/>
             </picture>
           </a>
           <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
             <picture href="https://www.r-project.org/">
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-R-%230d1117?style=for-the-badge&logo=r&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-R-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=r">
-              <img src="https://img.shields.io/badge/-R-%230d1117?style=for-the-badge&logo=r&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-R-%230d1117?style=social&logo=r&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-R-rgb(242%2C%20242%2C%20242)?style=social&logo=r">
+              <img src="https://img.shields.io/badge/-R-%230d1117?style=social&logo=r&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.microsoft.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows-%230d1117?style=for-the-badge&logo=windows&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=windows">
-              <img src="https://img.shields.io/badge/-Windows-%230d1117?style=for-the-badge&logo=windows&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows-%230d1117?style=social&logo=windows&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows-rgb(242%2C%20242%2C%20242)?style=social&logo=windows">
+              <img src="https://img.shields.io/badge/-Windows-%230d1117?style=social&logo=windows&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.linux.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Linux-%230d1117?style=for-the-badge&logo=linux&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Linux-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=linux">
-              <img src="https://img.shields.io/badge/-Linux-%230d1117?style=for-the-badge&logo=linux&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Linux-%230d1117?style=social&logo=linux&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Linux-rgb(242%2C%20242%2C%20242)?style=social&logo=linux">
+              <img src="https://img.shields.io/badge/-Linux-%230d1117?style=social&logo=linux&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.centos.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-CentOS-%230d1117?style=for-the-badge&logo=centos&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-CentOS-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=centos">
-              <img src="https://img.shields.io/badge/-CentOS-%230d1117?style=for-the-badge&logo=centos&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-CentOS-%230d1117?style=social&logo=centos&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-CentOS-rgb(242%2C%20242%2C%20242)?style=social&logo=centos">
+              <img src="https://img.shields.io/badge/-CentOS-%230d1117?style=social&logo=centos&color=%23696969"/>
             </picture>
           </a>
           <a href="https://ubuntu.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Ubuntu-%230d1117?style=for-the-badge&logo=ubuntu&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Ubuntu-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=ubuntu">
-              <img src="https://img.shields.io/badge/-Ubuntu-%230d1117?style=for-the-badge&logo=ubuntu&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Ubuntu-%230d1117?style=social&logo=ubuntu&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Ubuntu-rgb(242%2C%20242%2C%20242)?style=social&logo=ubuntu">
+              <img src="https://img.shields.io/badge/-Ubuntu-%230d1117?style=social&logo=ubuntu&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.redhat.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-RedHat-%230d1117?style=for-the-badge&logo=redhat&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-RedHat-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=redhat">
-              <img src="https://img.shields.io/badge/-RedHat-%230d1117?style=for-the-badge&logo=redhat&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-RedHat-%230d1117?style=social&logo=redhat&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-RedHat-rgb(242%2C%20242%2C%20242)?style=social&logo=redhat">
+              <img src="https://img.shields.io/badge/-RedHat-%230d1117?style=social&logo=redhat&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.docker.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Docker-%230d1117?style=for-the-badge&logo=docker&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Docker-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=docker">
-              <img src="https://img.shields.io/badge/-Docker-%230d1117?style=for-the-badge&logo=docker&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Docker-%230d1117?style=social&logo=docker&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Docker-rgb(242%2C%20242%2C%20242)?style=social&logo=docker">
+              <img src="https://img.shields.io/badge/-Docker-%230d1117?style=social&logo=docker&color=%23696969"/>
             </picture>
           </a>
           <a href="https://hadoop.apache.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Apache-%230d1117?style=for-the-badge&logo=apache&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Apache-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=apache">
-              <img src="https://img.shields.io/badge/-Apache-%230d1117?style=for-the-badge&logo=apache&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Apache-%230d1117?style=social&logo=apache&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Apache-rgb(242%2C%20242%2C%20242)?style=social&logo=apache">
+              <img src="https://img.shields.io/badge/-Apache-%230d1117?style=social&logo=apache&color=%23696969"/>
             </picture>
           </a>
           <a href="https://hadoop.apache.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Hadoop-%230d1117?style=for-the-badge&logo=apachehadoop&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Hadoop-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=apachehadoop">
-              <img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=for-the-badge&logo=apachehadoop&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Hadoop-%230d1117?style=social&logo=apachehadoop&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Hadoop-rgb(242%2C%20242%2C%20242)?style=social&logo=apachehadoop">
+              <img src="https://img.shields.io/badge/-Hadoop-%230d1117?style=social&logo=apachehadoop&color=%23696969"/>
             </picture>
           </a>
           <a href="https://spark.apache.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Spark-%230d1117?style=for-the-badge&logo=apachespark&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Spark-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=apachespark">
-              <img src="https://img.shields.io/badge/-Spark-%230d1117?style=for-the-badge&logo=apachespark&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Spark-%230d1117?style=social&logo=apachespark&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Spark-rgb(242%2C%20242%2C%20242)?style=social&logo=apachespark">
+              <img src="https://img.shields.io/badge/-Spark-%230d1117?style=social&logo=apachespark&color=%23696969"/>
             </picture>
           </a>
           <a href="https://hive.apache.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Hive-%230d1117?style=for-the-badge&logo=apachehive&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Hive-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=apachehive">
-              <img src="https://img.shields.io/badge/-Hive-%230d1117?style=for-the-badge&logo=apachehive&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Hive-%230d1117?style=social&logo=apachehive&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Hive-rgb(242%2C%20242%2C%20242)?style=social&logo=apachehive">
+              <img src="https://img.shields.io/badge/-Hive-%230d1117?style=social&logo=apachehive&color=%23696969"/>
             </picture>
           </a>
           <a href="https://maven.apache.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Maven-%230d1117?style=for-the-badge&logo=apachemaven&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Maven-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=apachemaven">
-              <img src="https://img.shields.io/badge/-Maven-%230d1117?style=for-the-badge&logo=apachemaven&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Maven-%230d1117?style=social&logo=apachemaven&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Maven-rgb(242%2C%20242%2C%20242)?style=social&logo=apachemaven">
+              <img src="https://img.shields.io/badge/-Maven-%230d1117?style=social&logo=apachemaven&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.selenium.dev/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Selenium-%230d1117?style=for-the-badge&logo=selenium&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Selenium-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=selenium">
-              <img src="https://img.shields.io/badge/-Selenium-%230d1117?style=for-the-badge&logo=selenium&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Selenium-%230d1117?style=social&logo=selenium&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Selenium-rgb(242%2C%20242%2C%20242)?style=social&logo=selenium">
+              <img src="https://img.shields.io/badge/-Selenium-%230d1117?style=social&logo=selenium&color=%23696969"/>
             </picture>
           </a>
           <a href="https://fastapi.tiangolo.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-FastAPI-%230d1117?style=for-the-badge&logo=fastapi&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-FastAPI-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=fastapi">
-              <img src="https://img.shields.io/badge/-FastAPI-%230d1117?style=for-the-badge&logo=fastapi&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-FastAPI-%230d1117?style=social&logo=fastapi&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-FastAPI-rgb(242%2C%20242%2C%20242)?style=social&logo=fastapi">
+              <img src="https://img.shields.io/badge/-FastAPI-%230d1117?style=social&logo=fastapi&color=%23696969"/>
             </picture>
           </a>
           <a href="https://pandas.pydata.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Pandas-%230d1117?style=for-the-badge&logo=pandas&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Pandas-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=pandas">
-              <img src="https://img.shields.io/badge/-Pandas-%230d1117?style=for-the-badge&logo=pandas&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Pandas-%230d1117?style=social&logo=pandas&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Pandas-rgb(242%2C%20242%2C%20242)?style=social&logo=pandas">
+              <img src="https://img.shields.io/badge/-Pandas-%230d1117?style=social&logo=pandas&color=%23696969"/>
             </picture>
           </a>
           <a href="https://numpy.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Numpy-%230d1117?style=for-the-badge&logo=numpy&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Numpy-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=numpy">
-              <img src="https://img.shields.io/badge/-Numpy-%230d1117?style=for-the-badge&logo=numpy&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Numpy-%230d1117?style=social&logo=numpy&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Numpy-rgb(242%2C%20242%2C%20242)?style=social&logo=numpy">
+              <img src="https://img.shields.io/badge/-Numpy-%230d1117?style=social&logo=numpy&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.mysql.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-MySQL-%230d1117?style=for-the-badge&logo=mysql&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-MySQL-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=mysql">
-              <img src="https://img.shields.io/badge/-MySQL-%230d1117?style=for-the-badge&logo=mysql&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-MySQL-%230d1117?style=social&logo=mysql&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-MySQL-rgb(242%2C%20242%2C%20242)?style=social&logo=mysql">
+              <img src="https://img.shields.io/badge/-MySQL-%230d1117?style=social&logo=mysql&color=%23696969"/>
             </picture>
           </a>
           <a href="https://git-scm.com/">
             <picture href="https://git-scm.com/">
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Git-%230d1117?style=for-the-badge&logo=git&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Git-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=git">
-              <img src="https://img.shields.io/badge/-Git-%230d1117?style=for-the-badge&logo=git&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Git-%230d1117?style=social&logo=git&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Git-rgb(242%2C%20242%2C%20242)?style=social&logo=git">
+              <img src="https://img.shields.io/badge/-Git-%230d1117?style=social&logo=git&color=%23696969"/>
             </picture>
           </a>
           <a href="https://jupyter.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Jupyter-%230d1117?style=for-the-badge&logo=jupyter&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Jupyter-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=jupyter">
-              <img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=for-the-badge&logo=jupyter&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Jupyter-%230d1117?style=social&logo=jupyter&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Jupyter-rgb(242%2C%20242%2C%20242)?style=social&logo=jupyter">
+              <img src="https://img.shields.io/badge/-Jupyter-%230d1117?style=social&logo=jupyter&color=%23696969"/>
             </picture>
           </a>
           <a href="https://html.spec.whatwg.org/multipage/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Html-%230d1117?style=for-the-badge&logo=html5&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Html-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=html5">
-              <img src="https://img.shields.io/badge/-Html-%230d1117?style=for-the-badge&logo=html5&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Html-%230d1117?style=social&logo=html5&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Html-rgb(242%2C%20242%2C%20242)?style=social&logo=html5">
+              <img src="https://img.shields.io/badge/-Html-%230d1117?style=social&logo=html5&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.markdownguide.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Markdown-%230d1117?style=for-the-badge&logo=markdown&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Markdown-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=markdown">
-              <img src="https://img.shields.io/badge/-Markdown-%230d1117?style=for-the-badge&logo=markdown&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Markdown-%230d1117?style=social&logo=markdown&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Markdown-rgb(242%2C%20242%2C%20242)?style=social&logo=markdown">
+              <img src="https://img.shields.io/badge/-Markdown-%230d1117?style=social&logo=markdown&color=%23696969"/>
             </picture>
           </a>
           <a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=for-the-badge&logo=windowsterminal&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows Terminal-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=windowsterminal">
-              <img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=for-the-badge&logo=windowsterminal&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=social&logo=windowsterminal&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows Terminal-rgb(242%2C%20242%2C%20242)?style=social&logo=windowsterminal">
+              <img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=social&logo=windowsterminal&color=%23696969"/>
             </picture>
           </a>
           <a href="https://echarts.apache.org/index.html">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Echarts-%230d1117?style=for-the-badge&logo=apacheecharts&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Echarts-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=apacheecharts">
-              <img src="https://img.shields.io/badge/-Echarts-%230d1117?style=for-the-badge&logo=apacheecharts&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Echarts-%230d1117?style=social&logo=apacheecharts&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Echarts-rgb(242%2C%20242%2C%20242)?style=social&logo=apacheecharts">
+              <img src="https://img.shields.io/badge/-Echarts-%230d1117?style=social&logo=apacheecharts&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.vim.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Vim-%230d1117?style=for-the-badge&logo=vim&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Vim-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=vim">
-              <img src="https://img.shields.io/badge/-Vim-%230d1117?style=for-the-badge&logo=vim&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Vim-%230d1117?style=social&logo=vim&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Vim-rgb(242%2C%20242%2C%20242)?style=social&logo=vim">
+              <img src="https://img.shields.io/badge/-Vim-%230d1117?style=social&logo=vim&color=%23696969"/>
             </picture>
           </a>
           <a href="https://neovim.io/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Neovim-%230d1117?style=for-the-badge&logo=neovim&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Neovim-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=neovim">
-              <img src="https://img.shields.io/badge/-Neovim-%230d1117?style=for-the-badge&logo=neovim&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Neovim-%230d1117?style=social&logo=neovim&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Neovim-rgb(242%2C%20242%2C%20242)?style=social&logo=neovim">
+              <img src="https://img.shields.io/badge/-Neovim-%230d1117?style=social&logo=neovim&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.lua.org/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Lua-%230d1117?style=for-the-badge&logo=lua&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Lua-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=lua">
-              <img src="https://img.shields.io/badge/-Lua-%230d1117?style=for-the-badge&logo=lua&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Lua-%230d1117?style=social&logo=lua&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Lua-rgb(242%2C%20242%2C%20242)?style=social&logo=lua">
+              <img src="https://img.shields.io/badge/-Lua-%230d1117?style=social&logo=lua&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.jetbrains.com/pycharm/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Pycharm-%230d1117?style=for-the-badge&logo=pycharm&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Pycharm-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=pycharm">
-              <img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=for-the-badge&logo=pycharm&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Pycharm-%230d1117?style=social&logo=pycharm&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Pycharm-rgb(242%2C%20242%2C%20242)?style=social&logo=pycharm">
+              <img src="https://img.shields.io/badge/-Pycharm-%230d1117?style=social&logo=pycharm&color=%23696969"/>
             </picture>
           </a>
           <a href="https://www.jetbrains.com/idea/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Idea-%230d1117?style=for-the-badge&logo=intellijidea&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Idea-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=intellijidea">
-              <img src="https://img.shields.io/badge/-Idea-%230d1117?style=for-the-badge&logo=intellijidea&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Idea-%230d1117?style=social&logo=intellijidea&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Idea-rgb(242%2C%20242%2C%20242)?style=social&logo=intellijidea">
+              <img src="https://img.shields.io/badge/-Idea-%230d1117?style=social&logo=intellijidea&color=%23696969"/>
             </picture>
           </a>
           <a href="https://code.visualstudio.com/">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-vscode-%230d1117?style=for-the-badge&logo=visualstudiocode&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-vscode-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=visualstudiocode">
-              <img src="https://img.shields.io/badge/-vscode-%230d1117?style=for-the-badge&logo=visualstudiocode&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-vscode-%230d1117?style=social&logo=visualstudiocode&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-vscode-rgb(242%2C%20242%2C%20242)?style=social&logo=visualstudiocode">
+              <img src="https://img.shields.io/badge/-vscode-%230d1117?style=social&logo=visualstudiocode&color=%23696969"/>
             </picture>
           </a>
         </p>
@@ -358,16 +358,16 @@ Here are some ideas to get you started:
 <p>
   <a href="https://github.com/weiensong/weiensong/issues/1">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-GitHub-%230d1117?style=for-the-badge&logo=github&color=%23696969"> 
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-GitHub-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=github">
-      <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=for-the-badge&logo=github&color=%23696969"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-GitHub-%230d1117?style=social&logo=github&color=%23696969"> 
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-GitHub-rgb(242%2C%20242%2C%20242)?style=social&logo=github">
+      <img src="https://img.shields.io/badge/-GitHub-%230d1117?style=social&logo=github&color=%23696969"/>
     </picture>
   </a>
   <a href="mailto:touer0018@gmail.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=for-the-badge&logo=gmail&color=%23696969"> 
-      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-rgb(242%2C%20242%2C%20242)?style=for-the-badge&logo=gmail">
-      <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=for-the-badge&logo=gmail&color=%23696969"/>
+      <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=social&logo=gmail&color=%23696969"> 
+      <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-touer0018@gmail.com-rgb(242%2C%20242%2C%20242)?style=social&logo=gmail">
+      <img src="https://img.shields.io/badge/-touer0018@gmail.com-%230d1117?style=social&logo=gmail&color=%23696969"/>
     </picture>
   </a>
 <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" height="60" width="60" >
