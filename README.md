@@ -69,7 +69,7 @@ Here are some ideas to get you started:
               <img src="https://img.shields.io/badge/-JavaScript-rgb(242%2C%20242%2C%20242)?style=social&logo=javascript&color=%23696969"/>
             </picture>
           </a>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+          <a href="https://www.r-project.org/">
             <picture href="https://www.r-project.org/">
               <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-R-%230d1117?style=social&logo=r&color=%23696969"> 
               <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-R-rgb(242%2C%20242%2C%20242)?style=social&logo=r">
