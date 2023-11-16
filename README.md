@@ -230,11 +230,18 @@ Here are some ideas to get you started:
               <img src="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown&color=%23696969"/>
             </picture>
           </a>
+          <a href="https://iterm2.com/">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-iTerm2-%230d1117?style=flat-square&logo=windowsterminal&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-iTerm2-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=windowsterminal">
+              <img src="https://img.shields.io/badge/-iTerm2-%230d1117?style=flat-square&logo=windowsterminal&color=%23696969"/>
+            </picture>
+          </a>
           <a href="https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal&color=%23696969"> 
-              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows Terminal-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=windowsterminal">
-              <img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=windowsterminal&color=%23696969"/>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=iterm2&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Windows Terminal-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=iterm2">
+              <img src="https://img.shields.io/badge/-Windows Terminal-%230d1117?style=flat-square&logo=iterm2&color=%23696969"/>
             </picture>
           </a>
           <a href="https://echarts.apache.org/index.html">
