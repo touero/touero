@@ -223,6 +223,13 @@ Here are some ideas to get you started:
               <img src="https://img.shields.io/badge/-Html-%230d1117?style=flat-square&logo=html5&color=%23696969"/>
             </picture>
           </a>
+          <a href="https://www.w3schools.com/css/">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Css-%230d1117?style=flat-square&logo=css3&color=%23696969"> 
+              <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Css-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=css3">
+              <img src="https://img.shields.io/badge/-Css-%230d1117?style=flat-square&logo=css3&color=%23696969"/>
+            </picture>
+          </a>
           <a href="https://www.markdownguide.org/">
             <picture>
               <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Markdown-%230d1117?style=flat-square&logo=markdown&color=%23696969"> 
