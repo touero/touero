@@ -380,9 +380,7 @@ Here are some ideas to get you started:
 
 counting of visitors to this page in this section started from OCT 23 2023  
   
-<picture>
-    <img src="https://count.getloli.com/get/@weiensong?theme=asoul">
-</picture>
+![](https://count.getloli.com/get/@weiensong?theme=asoul)
 
 <p>
   <a href="https://github.com/weiensong/weiensong/issues/1">
