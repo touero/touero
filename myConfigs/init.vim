@@ -1,11 +1,15 @@
+inoremap jk <Esc>
+nnoremap ; :
+nnoremap <expr> ; v:count ? ';' : ':'
+
 " Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 " delays and poor user experience
 set updatetime=100
 
-" Always show the signcolumn, otherwise it would shift the text each time
-" diagnostics appear/become resolved
 set signcolumn=yes
 set relativenumber
+set autoindent
+set cursorline
 
 " Use tab for trigger completion with characters ahead and navigate
 " NOTE: There's always complete item selected by default, you may want to enable
@@ -19,7 +23,13 @@ inoremap <silent><expr> <TAB>
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
 
 call plug#begin()
+Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'airblade/vim-gitgutter'
 call plug#end()
+
 map <C-e> :NERDTreeToggle<CR>
+let g:gitgutter_enabled = 1
+let g:gitgutter_terminal_reports_focus = 0
+autocmd vimenter * nested colorscheme gruvbox
