@@ -383,7 +383,7 @@ counting of visitors to this page in this section started from OCT 23 2023
 ![](https://count.getloli.com/get/@touero?theme=asoul)
 
 <p>
-  <a href="https://github.com/touero/touero/issues/1">
+  <a href="https://github.com/touero/touero/issues">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-GitHub-%230d1117?style=flat-square&logo=github&color=%23696969"> 
       <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-GitHub-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=github">
