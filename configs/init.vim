@@ -32,4 +32,5 @@ call plug#end()
 let g:gitgutter_enabled = 1
 let g:gitgutter_terminal_reports_focus = 0
 let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"'}
+
 autocmd vimenter * nested colorscheme gruvbox

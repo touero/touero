@@ -15,5 +15,5 @@ sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting
 
 chsh -s /bin/zsh
 
-git config --global user.name "weiensong"
+git config --global user.name "touero"
 git config --global user.email "touer0018@gmail.com"
