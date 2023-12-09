@@ -20,6 +20,7 @@ set signcolumn=yes
 set relativenumber
 set autoindent
 set cursorline
+set clipboard=unnamed
 
 call plug#begin()
 Plug 'morhetz/gruvbox'
