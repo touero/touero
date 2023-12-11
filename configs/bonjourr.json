@@ -1,0 +1,240 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "1.18.4"
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "🏠",
+  "tabtitle": "Home",
+  "greeting": "",
+  "pagegap": 0,
+  "pagewidth": 1600,
+  "time": true,
+  "main": true,
+  "usdate": false,
+  "background_blur": 0,
+  "background_bright": 0.54,
+  "background_type": "unsplash",
+  "quicklinks": true,
+  "linkstyle": "large",
+  "linknewtab": false,
+  "linksrow": "16",
+  "linksipdojk": {
+    "url": "https://chat.openai.com/",
+    "_id": "linksipdojk",
+    "icon": "https://chat.openai.com/apple-touch-icon.png",
+    "order": 12,
+    "title": ""
+  },
+  "linksogrefc": {
+    "url": "https://www.hupu.com/",
+    "_id": "linksogrefc",
+    "icon": "https://w1.hoopchina.com.cn/images/pc/old/favicon.ico",
+    "order": 11,
+    "title": ""
+  },
+  "linksiqlnnc": {
+    "url": "https://wallhaven.cc/",
+    "_id": "linksiqlnnc",
+    "icon": "https://wallhaven.cc/favicon.ico",
+    "order": 10,
+    "title": ""
+  },
+  "linksaailod": {
+    "url": "https://weibo.com/newlogin?tabtype=search",
+    "_id": "linksaailod",
+    "icon": "https://weibo.com/favicon.ico",
+    "order": 9,
+    "title": ""
+  },
+  "linksdgndfi": {
+    "url": "https://www.zhihu.com/",
+    "_id": "linksdgndfi",
+    "icon": "https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.81060cab.png",
+    "order": 8,
+    "title": ""
+  },
+  "linksjbladm": {
+    "url": "https://vk.com/pp4wikipedia",
+    "_id": "linksjbladm",
+    "icon": "https://vk.com/images/icons/favicons/fav_logo.ico",
+    "order": 7,
+    "title": ""
+  },
+  "linksnbilrl": {
+    "url": "https://twitter.com/",
+    "_id": "linksnbilrl",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg",
+    "order": 6,
+    "title": ""
+  },
+  "linkshrmbae": {
+    "url": "https://yopu.co/home#tab=favorites&sortBy=time",
+    "_id": "linkshrmbae",
+    "icon": "https://cdn.yopu.co/img/logo.bd260b19.svg",
+    "order": 5,
+    "title": ""
+  },
+  "linkslmjqmk": {
+    "url": "https://devv.ai/zh",
+    "_id": "linkslmjqmk",
+    "icon": "https://devv.ai/favicon-light.png",
+    "order": 4,
+    "title": ""
+  },
+  "linksordkfa": {
+    "url": "https://www.youtube.com/",
+    "_id": "linksordkfa",
+    "icon": "https://www.youtube.com/s/desktop/32c4e480/img/favicon_144x144.png",
+    "order": 3,
+    "title": ""
+  },
+  "linksnmeqpi": {
+    "url": "https://stackoverflow.com/",
+    "_id": "linksnmeqpi",
+    "icon": "https://cdn.sstatic.net/sites/stackoverflow/img/favicon.ico",
+    "order": 2,
+    "title": ""
+  },
+  "linksgiejaf": {
+    "url": "https://github.com/",
+    "_id": "linksgiejaf",
+    "icon": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png",
+    "order": 1,
+    "title": ""
+  },
+  "linksojldbb": {
+    "url": "https://www.bilibili.com/",
+    "_id": "linksojldbb",
+    "icon": "https://static.hdslb.com/mobile/img/512.png",
+    "order": 0,
+    "title": ""
+  },
+  "textShadow": 0.2,
+  "reviewPopup": "removed",
+  "cssHeight": 80,
+  "css": "#background_overlay {\n\ttransition: transform 0.2s, opacity 0s;\n}\n#searchbar{\n      font-size: x-large;\n      border-radius:14px;\n      border:1px\n      solid #ccc;\n      padding: 5px;\n      border: 1px solid #ccc;\n      overflow: hidden; \n      display: inline-block; \n      transition: width 2s linear, min-height 2s linear;\n    }\n#searchbar:focus-within {\n  width: 200px;\n  min-height: 50px;\n}\n#interface #linkblocks li.block a img {\n\tbackground: transparent;\n\tbox-shadow: unset;\n}\n\n#interface #linkblocks li.block a img:hover {\n\tbox-shadow: unset;\n}\n#credit {\n\tdisplay: none;\n}",
+  "hide": {
+    "settingsicon": true,
+    "weatherdesc": false,
+    "weathericon": false
+  },
+  "clock": {
+    "ampm": false,
+    "analog": false,
+    "face": "none",
+    "seconds": true,
+    "size": 1,
+    "style": "round",
+    "timezone": "+8"
+  },
+  "unsplash": {
+    "collection": "",
+    "every": "hour",
+    "lastCollec": "evening",
+    "pausedImage": null,
+    "time": 1702200246447
+  },
+  "weather": {
+    "ccode": "FR",
+    "city": "HK",
+    "forecast": "auto",
+    "geolocation": "approximate",
+    "moreinfo": "none",
+    "provider": "",
+    "temperature": "actual",
+    "unit": "metric"
+  },
+  "notes": {
+    "align": "left",
+    "on": false,
+    "opacity": 0.1,
+    "text": null,
+    "width": 40
+  },
+  "searchbar": {
+    "on": true,
+    "opacity": 0.1,
+    "engine": "google",
+    "newtab": true,
+    "placeholder": "",
+    "request": "",
+    "suggestions": false
+  },
+  "quotes": {
+    "on": false,
+    "author": false,
+    "frequency": "day",
+    "last": 1702139910338,
+    "type": "classic",
+    "userlist": []
+  },
+  "font": {
+    "size": "14",
+    "availWeights": [],
+    "family": "",
+    "url": "",
+    "weight": "300"
+  },
+  "move": {
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "."
+          ],
+          [
+            ".",
+            "main",
+            "."
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    },
+    "selection": "single"
+  }
+}

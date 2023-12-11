@@ -1,9 +1,11 @@
 inoremap jk <Esc>
+inoremap jkf <Esc>:wq<CR>
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#next(1) :
       \ CheckBackspace() ? "\<Tab>" :
       \ coc#refresh()
 inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
 nnoremap ; :
 nnoremap <expr> ; v:count ? ';' : ':'
@@ -13,7 +15,7 @@ nnoremap <S-Tab> <<
 vnoremap <Tab> >gc
 vnoremap <S-Tab> <gv
 
-map <C-e> :NERDTreeToggle<CR>
+map tt :NERDTreeToggle<CR>
 
 set updatetime=100
 set signcolumn=yes
