@@ -11,6 +11,8 @@ nnoremap ; :
 nnoremap <expr> ; v:count ? ';' : ':'
 nnoremap <Tab> >>
 nnoremap <S-Tab> <<
+nnoremap <CR> :normal o<CR>
+nnoremap <S-Enter> :normal O<CR>
 
 vnoremap <Tab> >gc
 vnoremap <S-Tab> <gv
