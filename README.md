@@ -340,7 +340,7 @@ Here are some ideas to get you started:
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"/>
   </picture>
   
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanptazVmdnJiY3lhYTg1Y3YxdDZvOXV4M3NhOXhtbDVwaDE3cnJ3aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hiJ9ypGI5tIKdwKoK2/giphy.gif" align="left" width="130">
+  <img src="https://media.giphy.com/media/aGfJWlTGGxRa3TkcZd/giphy.gif" align="left" width="150">
 </p>
 
 
