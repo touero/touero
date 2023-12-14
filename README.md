@@ -350,7 +350,8 @@ Here are some ideas to get you started:
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=touero&theme=github&bg_color=166166166&include_all_commits=True&disable_animations=true" width="690" height="200">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=touero&theme=github&bg_color=242424&include_all_commits=True&disable_animations=true" width="690" height="200">
   </picture>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjJqajJxa2QydWp1OXI0cmY5dWEyNDZyZTVmNnBtNXF5c2Nrd3k2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2mrhXMsmtCnj6T28kK/giphy.gif" width="130">
+  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="130">
+  
 </p>
 
 <!-- snake -->
@@ -360,7 +361,7 @@ Here are some ideas to get you started:
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/touero/touero/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lxfriday/lxfriday/output/github-contribution-grid-snake.svg" width="700">
   </picture>
-  <img src="https://media.giphy.com/media/l4FGrHErakgV8GRO0/giphy.gif" width="130">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjJqajJxa2QydWp1OXI0cmY5dWEyNDZyZTVmNnBtNXF5c2Nrd3k2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2mrhXMsmtCnj6T28kK/giphy.gif" width="130">
 </p>  
 
 <!-- medal -->
