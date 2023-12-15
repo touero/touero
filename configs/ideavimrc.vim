@@ -21,7 +21,6 @@ set updatetime=100
 set cursorline
 set relativenumber
 set incsearch
-set clipboard+=unnamed
 set showmode
 set showcmd
 
