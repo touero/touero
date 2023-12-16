@@ -1,3 +1,12 @@
+if has("nvim") && exists("g:neovide")
+    let g:neovide_remember_window_size = 1
+    let g:neovide_cursor_antialiasing = 1
+    let g:neovide_transparency = 0.0
+    let g:transparency = 0.8
+    set guifont=Monaco:h18
+    let g:neovide_background_color = '#0f1117'.printf('%x', float2nr(255 * g:transparency))
+endif
+
 inoremap jk <Esc>
 inoremap jkf <Esc>:wq<CR>
 inoremap <silent><expr> <TAB>
@@ -22,6 +31,10 @@ map tt :NERDTreeToggle<CR>
 set updatetime=100
 set signcolumn=yes
 set relativenumber
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
 set autoindent
 set cursorline
 set clipboard=unnamed
