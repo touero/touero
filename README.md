@@ -337,7 +337,7 @@ Here are some ideas to get you started:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=touero&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"> 
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=touero&layout=compact&theme=transparent&langs_count=20&disable_animations=true" height="180">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=weiensong&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=touero&layout=compact&theme=darcula&langs_count=20&disable_animations=true" height="180"/>
   </picture>
  
   <img src="https://media.giphy.com/media/aGfJWlTGGxRa3TkcZd/giphy.gif" align="left" width="110">
