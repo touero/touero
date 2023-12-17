@@ -38,6 +38,7 @@ set noexpandtab
 set autoindent
 set cursorline
 set clipboard=unnamed
+set scrolloff=4
 
 call plug#begin()
 Plug 'morhetz/gruvbox'
