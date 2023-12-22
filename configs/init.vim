@@ -1,10 +1,15 @@
 if has("nvim") && exists("g:neovide")
-    let g:neovide_remember_window_size = 1
-    let g:neovide_cursor_antialiasing = 1
-    let g:neovide_transparency = 0.0
-    let g:transparency = 0.8
-    set guifont=Monaco:h18
-    let g:neovide_background_color = '#0f1117'.printf('%x', float2nr(255 * g:transparency))
+    let g:neovide_remember_window_size = v:true
+    let g:neovide_cursor_antialiasing = v:true 
+	let g:transparency = 0.8
+	let g:neovide_background_color = '#0f1117'.printf('%x', float2nr(255 * g:transparency))
+	let g:neovide_cursor_animation_length = 0.1
+	let g:neovide_cursor_trail_size = 0.7
+	let g:neovide_cursor_vfx_mode = "torpedo"
+	let g:neovide_cursor_animate_in_insert_mode = v:true
+	let g:neovide_cursor_animate_command_line = v:true
+	let g:neovide_cursor_antialiasing = v:true
+	let g:neovide_cursor_vfx_opacity = 10.0
 endif
 
 inoremap jk <Esc>
@@ -39,6 +44,7 @@ set autoindent
 set cursorline
 set clipboard=unnamed
 set scrolloff=4
+" set mouse=a
 
 call plug#begin()
 Plug 'morhetz/gruvbox'
@@ -53,4 +59,5 @@ let g:gitgutter_enabled = 1
 let g:gitgutter_terminal_reports_focus = 0
 let g:AutoPairs = {'(':')', '[':']', '{':'}',"'":"'",'"':'"'}
 
+autocmd FocusGained,BufEnter * checktime
 autocmd vimenter * nested colorscheme gruvbox
