@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 ![](./.src/header_.png)
 <a href="https://www.python.org/">
   <img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" >
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!" align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+touero!;Welcome+to+my+profile!;l+enjoy+new+things!" align="left">
 </a>
 
 <table style="width:100px">
