@@ -16,15 +16,24 @@ vnoremap <Tab> >gv
 vnoremap <S-Tab> <gv
 
 set number
-set scrolloff=5
-set updatetime=100
+set updatetime=500
 set cursorline
 set relativenumber
 set incsearch
 set showmode
 set showcmd
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+set autoindent
+set scrolloff=4
+set clipboard=unnamedplus
 
 map Q gq
+map tt :NERDTreeToggle<CR>
+
 
 Plug 'machakann/vim-highlightedyank'
 Plug 'tpope/vim-commentary'
+Plug 'preservim/nerdtree'
