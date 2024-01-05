@@ -4,6 +4,10 @@
     "actions": 
     [
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "renameTab"
@@ -11,8 +15,13 @@
             "keys": "ctrl+alt+r"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
         },
         {
             "command": 
@@ -32,15 +41,6 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "auto",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+d"
         },
         {
             "command": "unbound",
@@ -207,6 +207,10 @@
             "keys": "ctrl+shift+i"
         },
         {
+            "command": "markMode",
+            "keys": "ctrl+shift+/"
+        },
+        {
             "command": "closeWindow",
             "keys": "alt+f4"
         },
@@ -227,13 +231,6 @@
         {
             "command": 
             {
-                "action": "scrollUp"
-            },
-            "keys": "ctrl+pgup"
-        },
-        {
-            "command": 
-            {
                 "action": "moveFocus",
                 "direction": "previousInOrder"
             },
@@ -242,49 +239,15 @@
         {
             "command": 
             {
-                "action": "newTab"
+                "action": "scrollUp"
             },
-            "keys": "ctrl+t"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "down"
-            },
-            "keys": "alt+pgdn"
-        },
-        {
-            "command": 
-            {
-                "action": "renameWindow"
-            }
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "up"
-            },
-            "keys": "alt+pgup"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "nextInOrder"
-            },
-            "keys": "alt+right"
-        },
-        {
-            "command": "toggleFocusMode",
-            "keys": "ctrl+shift+m"
+            "keys": "ctrl+pgup"
         },
         {
             "command": 
             {
                 "action": "swapPane",
-                "direction": "up"
+                "direction": "down"
             }
         },
         {
@@ -297,9 +260,50 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "down"
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
+        },
+        {
+            "command": 
+            {
+                "action": "renameWindow"
             }
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "down"
+            },
+            "keys": "alt+pgdn"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "up"
+            },
+            "keys": "alt+pgup"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "up"
+            }
+        },
+        {
+            "command": "toggleFocusMode",
+            "keys": "ctrl+shift+m"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "nextInOrder"
+            },
+            "keys": "alt+right"
         },
         {
             "command": 
@@ -307,10 +311,6 @@
                 "action": "swapPane",
                 "direction": "right"
             }
-        },
-        {
-            "command": "markMode",
-            "keys": "ctrl+shift+/"
         },
         {
             "command": 
@@ -322,14 +322,15 @@
     ],
     "alwaysShowNotificationIcon": false,
     "alwaysShowTabs": true,
+    "autoHideWindow": false,
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
+    "defaultProfile": "{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}",
     "focusFollowMouse": true,
     "initialCols": 150,
     "initialPosition": ",",
-    "initialRows": 30,
+    "initialRows": 40,
     "launchMode": "default",
     "newTabMenu": 
     [
@@ -347,11 +348,12 @@
         "list": 
         [
             {
+                "colorScheme": "Hivacruz",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "font": 
                 {
-                    "face": "Fira Code Retina",
-                    "size": 10.0
+                    "face": "JetBrainsMono Nerd Font Mono",
+                    "size": 11.0
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -408,29 +410,23 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "adjustIndistinguishableColors": "always",
-                "antialiasingMode": "cleartype",
-                "backgroundImage": null,
-                "backgroundImageOpacity": 0.2,
-                "colorScheme": "SleepyHollow",
-                "cursorHeight": 30,
-                "cursorShape": "vintage",
+                "backgroundImage": "C:\\Users\\12435\\Pictures\\Saved Pictures\\wallhaven-o5w96p.jpg",
+                "backgroundImageOpacity": 0.3,
+                "colorScheme": "Earthsong",
+                "cursorShape": "bar",
+                "experimental.retroTerminalEffect": false,
                 "font": 
                 {
                     "face": "JetBrainsMono Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "semi-bold"
+                    "size": 13.0,
+                    "weight": "medium"
                 },
-                "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
+                "guid": "{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}",
                 "hidden": false,
-                "intenseTextStyle": "none",
-                "name": "WSL",
-                "opacity": 85,
-                "padding": "30",
-                "scrollbarState": "visible",
+                "name": "Ubuntu 22.04.3 LTS",
+                "opacity": 100,
+                "padding": "15",
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "wsl",
                 "useAcrylic": false
             }
         ]
@@ -597,6 +593,29 @@
             "selectionBackground": "#121418",
             "white": "#E5C6AA",
             "yellow": "#F5AE2E"
+        },
+        {
+            "background": "#04090D",
+            "black": "#202746",
+            "blue": "#3D8FD1",
+            "brightBlack": "#6B7394",
+            "brightBlue": "#898EA4",
+            "brightCyan": "#9C637A",
+            "brightGreen": "#73AD43",
+            "brightPurple": "#DFE2F1",
+            "brightRed": "#C76B29",
+            "brightWhite": "#F5F7FF",
+            "brightYellow": "#5E6687",
+            "cursorColor": "#979DB4",
+            "cyan": "#22A2C9",
+            "foreground": "#EDE4E4",
+            "green": "#AC9739",
+            "name": "Hivacruz",
+            "purple": "#6679CC",
+            "red": "#C94922",
+            "selectionBackground": "#5E6687",
+            "white": "#979DB4",
+            "yellow": "#C08B30"
         },
         {
             "background": "#262626",
@@ -852,6 +871,29 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#151515",
+            "black": "#252525",
+            "blue": "#FC595F",
+            "brightBlack": "#5D6F71",
+            "brightBlue": "#FC595F",
+            "brightCyan": "#BA8586",
+            "brightGreen": "#A63C40",
+            "brightPurple": "#DF9395",
+            "brightRed": "#832E31",
+            "brightWhite": "#F5F5F5",
+            "brightYellow": "#D2494E",
+            "cursorColor": "#FF443E",
+            "cyan": "#BA8586",
+            "foreground": "#A1B0B8",
+            "green": "#A63C40",
+            "name": "Tomorrow Night Burns",
+            "purple": "#DF9395",
+            "red": "#832E31",
+            "selectionBackground": "#B0BEC5",
+            "white": "#F5F5F5",
+            "yellow": "#D3494E"
+        },
+        {
             "background": "#300A24",
             "black": "#171421",
             "blue": "#0037DA",
@@ -921,6 +963,52 @@
             "yellow": "#808000"
         },
         {
+            "background": "#101010",
+            "black": "#333333",
+            "blue": "#395573",
+            "brightBlack": "#3D3D3D",
+            "brightBlue": "#477AB3",
+            "brightCyan": "#6096BF",
+            "brightGreen": "#53A6A6",
+            "brightPurple": "#7E62B3",
+            "brightRed": "#BF4D80",
+            "brightWhite": "#C0C0C0",
+            "brightYellow": "#9E9ECB",
+            "cursorColor": "#9E9ECB",
+            "cyan": "#31658C",
+            "foreground": "#999993",
+            "green": "#287373",
+            "name": "Wryan",
+            "purple": "#5E468C",
+            "red": "#8C4665",
+            "selectionBackground": "#4D4D4D",
+            "white": "#899CA1",
+            "yellow": "#7C7C99"
+        },
+        {
+            "background": "#0F1419",
+            "black": "#000000",
+            "blue": "#36A3D9",
+            "brightBlack": "#323232",
+            "brightBlue": "#68D5FF",
+            "brightCyan": "#C7FFFD",
+            "brightGreen": "#EAFE84",
+            "brightPurple": "#FFA3AA",
+            "brightRed": "#FF6565",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFF779",
+            "cursorColor": "#F29718",
+            "cyan": "#95E6CB",
+            "foreground": "#E6E1CF",
+            "green": "#B8CC52",
+            "name": "ayu",
+            "purple": "#F07178",
+            "red": "#FF3333",
+            "selectionBackground": "#253340",
+            "white": "#FFFFFF",
+            "yellow": "#E7C547"
+        },
+        {
             "background": "#010C18",
             "black": "#0B3B61",
             "blue": "#1376F9",
@@ -965,53 +1053,34 @@
             "selectionBackground": "#37382D",
             "white": "#EBEFC0",
             "yellow": "#E39500"
+        },
+        {
+            "background": "#0F191C",
+            "black": "#0F191C",
+            "blue": "#3F5242",
+            "brightBlack": "#688060",
+            "brightBlue": "#4F7E7E",
+            "brightCyan": "#C1FF8A",
+            "brightGreen": "#90D762",
+            "brightPurple": "#11FF25",
+            "brightRed": "#2FC079",
+            "brightWhite": "#678C61",
+            "brightYellow": "#FAFF00",
+            "cursorColor": "#384545",
+            "cyan": "#50B45A",
+            "foreground": "#426644",
+            "green": "#82D967",
+            "name": "matrix",
+            "purple": "#409931",
+            "red": "#23755A",
+            "selectionBackground": "#18282E",
+            "white": "#507350",
+            "yellow": "#FFD700"
         }
     ],
     "showTabsInTitlebar": true,
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ],
-    "useAcrylicInTabRow": false
+    "tabSwitcherMode": "inOrder",
+    "tabWidthMode": "equal",
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
