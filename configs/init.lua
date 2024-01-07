@@ -1,43 +1,61 @@
-vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true, silent = true })
-
-vim.api.nvim_set_keymap('i', '<TAB>', "pumvisible() ? coc.pum.next(1) : CheckBackspace() ? '<Tab>' : coc.refresh()", { expr = true, silent = true })
-vim.api.nvim_set_keymap('i', '<S-TAB>', "pumvisible() ? coc.pum.prev(1) : '<C-h>'", { expr = true, silent = true })
-
-vim.api.nvim_set_keymap('n', ';', '<expr> v:count ? ";" : ":"', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Tab>', '>>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<S-Tab>', '<<', { noremap = true, silent = true })
-
-vim.api.nvim_set_keymap('x', '<Tab>', '>gc', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('x', '<S-Tab>', '<gv', { noremap = true, silent = true })
-
-vim.api.nvim_set_keymap('', '<C-e>', ':NERDTreeToggle<CR>', { noremap = true, silent = true })
-
-vim.o.updatetime = 100
-vim.wo.signcolumn = 'yes'
-vim.wo.relativenumber = true
-vim.o.autoindent = true
-vim.wo.cursorline = true
-vim.o.clipboard = 'unnamed'
-
-local packer_exists = pcall(vim.cmd, [[packadd packer.nvim]])
-
-if not packer_exists then
-    local install_path = vim.fn.stdpath('data')..'/site/pack/packer/opt/packer.nvim'
-    vim.fn.system({'git', 'clone', 'https://github.com/wbthomason/packer.nvim', install_path})
-    vim.cmd('packadd packer.nvim')
+if vim.fn.has("nvim") and vim.fn.exists("g:neovide") then
+    vim.g.neovide_remember_window_size = true
+    vim.g.neovide_cursor_antialiasing = true
+    vim.g.transparency = 0.8
+    vim.g.neovide_background_color = string.format('#0f1117%x', vim.fn.float2nr(255 * vim.g.transparency))
+    vim.g.neovide_cursor_animation_length = 0.1
+    vim.g.neovide_cursor_trail_size = 0.7
+    vim.g.neovide_cursor_vfx_mode = "torpedo"
+    vim.g.neovide_cursor_animate_in_insert_mode = true
+    vim.g.neovide_cursor_animate_command_line = true
+    vim.g.neovide_cursor_antialiasing = true
+    vim.g.neovide_cursor_vfx_opacity = 10.0
 end
 
-require('packer').startup(function()
-    use 'morhetz/gruvbox'
-    use 'scrooloose/nerdtree'
-    use {'neoclide/coc.nvim', branch = 'release'}
-    use 'airblade/vim-gitgutter'
-    use 'jiangmiao/auto-pairs'
-end)
+vim.api.nvim_set_keymap('i', 'jk', '<Esc>', {})
+vim.api.nvim_set_keymap('i', 'jkf', '<Esc>:wq<CR>', { silent = true })
 
+vim.api.nvim_set_keymap('i', '<TAB>', 'coc#pum#visible() ? coc#pum#next(1) : CheckBackspace() ? "\<Tab>" : coc#refresh()', { expr = true, silent = true })
+vim.api.nvim_set_keymap('i', '<S-TAB>', 'coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"', { expr = true })
+
+vim.api.nvim_set_keymap('i', '<CR>', 'pumvisible() ? "\<C-y>" : "\<CR>"', { expr = true })
+
+vim.api.nvim_set_keymap('n', ';', ':', {})
+vim.api.nvim_set_keymap('x', ';', ':', { expr = true })
+vim.api.nvim_set_keymap('n', '<Tab>', '>>', {})
+vim.api.nvim_set_keymap('n', '<S-Tab>', '<<', {})
+vim.api.nvim_set_keymap('n', '<CR>', ':normal o<CR>', {})
+vim.api.nvim_set_keymap('n', '<S-Enter>', ':normal O<CR>', {})
+
+vim.api.nvim_set_keymap('v', '<Tab>', '>gc', {})
+vim.api.nvim_set_keymap('v', '<S-Tab>', '<gv', {})
+
+vim.api.nvim_set_keymap('n', 'tt', ':NERDTreeToggle<CR>', {})
+
+vim.o.updatetime = 100
+vim.o.signcolumn = 'yes'
+vim.o.relativenumber = true
+vim.o.tabstop = 4
+vim.o.softtabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = false
+vim.o.autoindent = true
+vim.o.cursorline = true
+vim.o.clipboard = 'unnamed'
+vim.o.scrolloff = 4
+
+vim.cmd([[call plug#begin()]])
+vim.cmd([[Plug 'morhetz/gruvbox']])
+vim.cmd([[Plug 'scrooloose/nerdtree']])
+vim.cmd([[Plug 'neoclide/coc.nvim', {'branch': 'release'}]])
+vim.cmd([[Plug 'airblade/vim-gitgutter']])
+vim.cmd([[Plug 'jiangmiao/auto-pairs']])
+vim.cmd([[call plug#end()]])
+
+vim.g.NERDTreeShowHidden = 1
 vim.g.gitgutter_enabled = 1
 vim.g.gitgutter_terminal_reports_focus = 0
-
 vim.g.AutoPairs = {['('] = ')', ['['] = ']', ['{'] = '}', ["'"] = "'", ['"'] = '"'}
 
-vim.cmd('autocmd vimenter * nested colorscheme gruvbox')
+vim.cmd([[autocmd FocusGained,BufEnter * checktime]])
+vim.cmd([[autocmd vimenter * nested colorscheme gruvbox]])
