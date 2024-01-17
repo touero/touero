@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 
 <!-- Technology Stack -->
 ![](./.src/header_.png)
-<a href="https://www.python.org/">
+<a href="https://www.python.org/" target="_blank">
   <img src="https://techstack-generator.vercel.app/python-icon.svg" align="right" height="60" width="60" >
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=27ADF7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+weiensong!;Welcome+to+my+profile!;l+enjoy+new+things!" align="left">
 </a>
@@ -34,21 +34,21 @@ Here are some ideas to get you started:
       <td width="50%" height="200%">
         <p>
           <!-- -----------------------------------------------------------------shields.io------------------------------------------------------------------------ -->
-          <a href="https://www.python.org/">
+          <a href="https://www.python.org/" target="_blank">
             <picture>
               <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python&color=%23696969"> 
               <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Python-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=python">
               <img class="dark-mode"src="https://img.shields.io/badge/-Python-%230d1117?style=flat-square&logo=python&color=%23696969"/>
             </picture>
           </a>
-          <a href="https://www.java.com/">
+          <a href="https://www.java.com/" target="_blank">
             <picture>
               <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk&color=%23696969"> 
               <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-Java-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=openjdk">
               <img src="https://img.shields.io/badge/-Java-%230d1117?style=flat-square&logo=openjdk&color=&color=%23696969"/>
             </picture>
           </a>
-          <a href="https://www.open-std.org/jtc1/sc22/wg14/">
+          <a href="https://www.open-std.org/jtc1/sc22/wg14/" target="_blank">
             <picture>
               <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/-C-%230d1117?style=flat-square&logo=c&color=%23696969"> 
               <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/-C-rgb(242%2C%20242%2C%20242)?style=flat-square&logo=c">
