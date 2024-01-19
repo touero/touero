@@ -35,6 +35,8 @@
   <a href="https://echarts.apache.org/index.html"> <img src="https://img.shields.io/badge/Echarts-FFFFFF?style=for-the-badge&logo=apacheecharts&logoColor=red" alt=""></a>
   <a href="https://neovim.io/"> <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" alt=""></a>
 </p>
-  
-![](https://raw.githubusercontent.com/touero/github-stats-transparent/output/generated/overview.svg)
-![](https://raw.githubusercontent.com/touero/github-stats-transparent/output/generated/languages.svg)
+
+<p align="center">
+  <img src="https://github.com/touero/touero/blob/output/generated/overview.svg" alt="">
+  <img src="https://github.com/touero/touero/blob/output/generated/languages.svg" alt="">
+</p>
