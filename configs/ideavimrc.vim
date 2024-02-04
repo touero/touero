@@ -29,6 +29,7 @@ set easymotion
 map Q gq
 map tt :NERDTreeToggle<CR>
 
+
 nmap m; <Action>(ShowBookmarks)
 nmap m' <Action>(Bookmarks)
 nmap 'a <Action>(GotoBookmarkA)
