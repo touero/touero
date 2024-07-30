@@ -410,7 +410,7 @@ Languages:
             await self.get_stats()
             assert(self._languages is not None)
 
-        return {k: v.get("prop", 0) for (k, v) in self._languages.items()}
+        return {k: v.get("prop", 0) for (k, v) in self._languages.items() if "HTML" not in k}
 
     @property
     async def repos(self) -> List[str]:
