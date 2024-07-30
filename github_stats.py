@@ -353,11 +353,11 @@ Languages:
 
         # TODO: Improve languages to scale by number of contributions to
         #       specific filetypes
-        langs_total = sum([v.get("size", 0) for k, v in self._languages.items() if k != "HTML"])
-
+        self._languages.pop("HTML", None)
+        langs_total = sum([v.get("size", 0) for v in self._languages.values()])
         for k, v in self._languages.items():
-            if k != "HTML":
-                v["prop"] = 100 * (v.get("size", 0) / langs_total)
+            print(k,v)
+            v["prop"] = 100 * (v.get("size", 0) / langs_total)
 
     @property
     async def name(self) -> str:
@@ -383,9 +383,7 @@ Languages:
 
     @property
     async def forks(self) -> int:
-        """      langs_total = sum([v.get("size", 0) for v in self._languages.values()])
-        for k, v in self._languages.items():
-            v["prop"] = 100 * (v.get("size", 0) / langs_total)
+        """
         :return: total number of forks on user's repos
         """
         if self._forks is not None:
