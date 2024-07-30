@@ -410,7 +410,10 @@ Languages:
             await self.get_stats()
             assert(self._languages is not None)
 
-        return {k: v.get("prop", 0) for (k, v) in self._languages.items() if "HTML" not in k}
+        filtered_languages = {k: v for k, v in self._languages.items() if "HTML" not in k}
+        total_prop = sum(v.get("prop", 0) for v in filtered_languages.values())
+
+        return {k: (v.get("prop", 0) / total_prop) for k, v in filtered_languages.items() if total_prop > 0}
 
     @property
     async def repos(self) -> List[str]:
