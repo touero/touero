@@ -66,35 +66,30 @@ class Queries(object):
                 params = dict()
             if path.startswith("/"):
                 path = path[1:]
+            url = f"https://api.github.com/{path}"
+
             try:
                 async with self.semaphore:
-                    r = await self.session.get(f"https://api.github.com/{path}",
-                                               headers=headers,
-                                               params=tuple(params.items()))
-                if r.status == 202:
-                    # print(f"{path} returned 202. Retrying...")
-                    print(f"A path returned 202. Retrying...")
-                    await asyncio.sleep(2)
-                    continue
-
-                result = await r.json()
-                if result is not None:
-                    return result
-            except:
-                print("aiohttp failed for rest query")
+                    r = await self.session.get(url, headers=headers, params=tuple(params.items()))
+                if r.status == 200:
+                    result = await r.json()
+                    if result is not None:
+                        return result
+                print(f"Async get {url} returned static code {r.status}. After 2 seconds retrying...")
+                await asyncio.sleep(2)
+                continue
+            except Exception as e:
+                print(f"Aiohttp failed for rest_query: {str(e)}")
                 # Fall back on non-async requests
                 async with self.semaphore:
-                    r = requests.get(f"https://api.github.com/{path}",
-                                     headers=headers,
-                                     params=tuple(params.items()))
-                    if r.status_code == 202:
-                        print(f"A path returned 202. Retrying...")
-                        await asyncio.sleep(2)
-                        continue
-                    elif r.status_code == 200:
+                    r = requests.get(url, headers=headers, params=tuple(params.items()))
+                    if r.status_code == 200:
                         return r.json()
+                    print(f"Sync get {url} returned static code {r.status_code}. After 2 seconds retrying...")
+                    await asyncio.sleep(2)
+                    continue
         # print(f"There were too many 202s. Data for {path} will be incomplete.")
-        print("There were too many 202s. Data for this repository will be incomplete.")
+        print("There are too many access failures. Data for this repository will be incomplete.")
         return dict()
 
     @staticmethod
