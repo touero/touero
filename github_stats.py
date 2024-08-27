@@ -354,9 +354,14 @@ Languages:
         # TODO: Improve languages to scale by number of contributions to
         #       specific filetypes
         self._languages.pop("HTML", None)
+        if self._languages.get("Python") is not None and self._languages.get("Jupyter Notebook") is not None:
+            jupyter_statistics: int = self._languages["Jupyter Notebook"].get("size", 0)
+            python_statistics: int = self._languages.get["Python"].get("size", 0)
+            self._languages["Python"]["size"] = jupyter_statistics + python_statistics
+            self._languages.pop("Jupyter Notebook", None)
+
         langs_total = sum([v.get("size", 0) for v in self._languages.values()])
         for k, v in self._languages.items():
-            print(k,v)
             v["prop"] = 100 * (v.get("size", 0) / langs_total)
 
     @property
