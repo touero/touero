@@ -353,7 +353,9 @@ Languages:
 
         # TODO: Improve languages to scale by number of contributions to
         #       specific filetypes
+        print(f'---- Languages: {self._languages}')
         self._languages.pop("HTML", None)
+
         if self._languages.get("Python") is not None and self._languages.get("Jupyter Notebook") is not None:
             jupyter_statistics: int = self._languages["Jupyter Notebook"].get("size", 0)
             python_statistics: int = self._languages["Python"].get("size", 0)
