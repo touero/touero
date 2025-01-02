@@ -25,7 +25,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 0.75em;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: rgb(72, 148, 224);
   fill: rgb(72, 148, 224);
@@ -40,8 +40,8 @@ ul {
 
 li {
   display: inline-flex;
-  font-size: 12px;
-  margin-right: 2ch;
+  font-size: 10px;
+  margin-right: 1ch;
   align-items: center;
   flex-wrap: nowrap;
   transform: translateX(-500%);
