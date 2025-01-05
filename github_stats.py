@@ -35,19 +35,15 @@ class Queries(object):
         headers = {
             "Authorization": f"Bearer {self.access_token}",
         }
+        url = "https://api.github.com/graphql"
         try:
             async with self.semaphore:
-                r = await self.session.post("https://api.github.com/graphql",
-                                            headers=headers,
-                                            json={"query": generated_query})
+                r = await self.session.post(url, headers=headers, json={"query": generated_query})
             return await r.json()
-        except:
-            print("aiohttp failed for GraphQL query")
-            # Fall back on non-async requests
+        except Exception as e:
+            print(f"Async query {url} error: {str(e)}")
             async with self.semaphore:
-                r = requests.post("https://api.github.com/graphql",
-                                  headers=headers,
-                                  json={"query": generated_query})
+                r = requests.post(url, headers=headers, json={"query": generated_query})
                 return r.json()
 
     async def query_rest(self, path: str, params: Optional[Dict] = None) -> Dict:
@@ -58,7 +54,7 @@ class Queries(object):
         :return: deserialized REST JSON output
         """
 
-        for _ in range(60):
+        for _ in range(300):
             headers = {
                 "Authorization": f"token {self.access_token}",
             }
@@ -67,7 +63,6 @@ class Queries(object):
             if path.startswith("/"):
                 path = path[1:]
             url = f"https://api.github.com/{path}"
-
             try:
                 async with self.semaphore:
                     r = await self.session.get(url, headers=headers, params=tuple(params.items()))
@@ -75,20 +70,18 @@ class Queries(object):
                     result = await r.json()
                     if result is not None:
                         return result
-                print(f"Async get {url} returned static code {r.status}. After 2 seconds retrying...")
-                await asyncio.sleep(2)
+                print(f"Async get {url} returned static code {r.status}. After 10 seconds retrying...")
+                await asyncio.sleep(10)
                 continue
             except Exception as e:
-                print(f"Aiohttp failed for rest_query: {str(e)}")
-                # Fall back on non-async requests
+                print(f"Async rest_query {url}: {str(e)}")
                 async with self.semaphore:
                     r = requests.get(url, headers=headers, params=tuple(params.items()))
                     if r.status_code == 200:
                         return r.json()
-                    print(f"Sync get {url} returned static code {r.status_code}. After 2 seconds retrying...")
-                    await asyncio.sleep(2)
+                    print(f"Sync get {url} returned static code {r.status_code}. After 10 seconds retrying...")
+                    await asyncio.sleep(10)
                     continue
-        # print(f"There were too many 202s. Data for {path} will be incomplete.")
         print("There are too many access failures. Data for this repository will be incomplete.")
         return dict()
 

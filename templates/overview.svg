@@ -31,7 +31,7 @@ th {
   padding: 0.5em;
   padding-top: 0;
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   color: rgb(72, 148, 224);
 }
@@ -40,7 +40,7 @@ td {
   margin-bottom: 16px;
   margin-top: 8px;
   padding: 0.25em;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 18px;
   color: rgb(145, 145, 145);
 }
