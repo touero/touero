@@ -54,7 +54,7 @@ class Queries(object):
         :return: deserialized REST JSON output
         """
 
-        for _ in range(300):
+        for _ in range(30):
             headers = {
                 "Authorization": f"token {self.access_token}",
             }
@@ -70,7 +70,7 @@ class Queries(object):
                     result = await r.json()
                     if result is not None:
                         return result
-                print(f"Async get {url} returned static code {r.status}. After 10 seconds retrying...")
+                print(f"Async get {url} returned static code {r.status}. After 10 seconds retrying... \n {r.json}")
                 await asyncio.sleep(10)
                 continue
             except Exception as e:
@@ -79,7 +79,7 @@ class Queries(object):
                     r = requests.get(url, headers=headers, params=tuple(params.items()))
                     if r.status_code == 200:
                         return r.json()
-                    print(f"Sync get {url} returned static code {r.status_code}. After 10 seconds retrying...")
+                    print(f"Sync get {url} returned static code {r.status_code}. After 10 seconds retrying... \n {r.json}")
                     await asyncio.sleep(10)
                     continue
         print("There are too many access failures. Data for this repository will be incomplete.")
