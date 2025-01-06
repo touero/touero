@@ -344,6 +344,7 @@ Languages:
         print(f'---- Languages: {self._languages}')
         self._languages.pop("HTML", None)
         self._languages.pop("CSS", None)
+        self._languages.pop("SCSS", None)
 
         if self._languages.get("Python") is not None and self._languages.get("Jupyter Notebook") is not None:
             jupyter_statistics: int = self._languages["Jupyter Notebook"].get("size", 0)
