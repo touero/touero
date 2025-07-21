@@ -1,0 +1,42 @@
+name: Cleanup Old Workflow Runs
+
+on:
+  schedule:
+    - cron: "0 0 5 * *"
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete workflow runs older than 30 days
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          cutoff_date=$(date -u -d '30 days ago' +%s)
+          page=1
+
+          while :; do
+            runs=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/$REPO/actions/runs?per_page=100&page=$page")
+
+            echo "$runs" | jq -c '.workflow_runs[]' | while read -r run; do
+              run_id=$(echo "$run" | jq '.id')
+              created_at=$(echo "$run" | jq -r '.created_at')
+              created_ts=$(date -d "$created_at" +%s)
+
+              if [ "$created_ts" -lt "$cutoff_date" ]; then
+                echo "🧹 Deleting run $run_id from $created_at"
+                curl -s -X DELETE -H "Authorization: Bearer $GITHUB_TOKEN" \
+                  -H "Accept: application/vnd.github+json" \
+                  "https://api.github.com/repos/$REPO/actions/runs/$run_id"
+              fi
+            done
+
+            count=$(echo "$runs" | jq '.workflow_runs | length')
+            if [ "$count" -lt 100 ]; then break; fi
+            page=$((page + 1))
+          done
+
