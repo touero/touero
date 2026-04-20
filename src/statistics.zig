@@ -87,6 +87,14 @@ const Repository = struct {
                     self.name,
                 },
             );
+        } else {
+            std.log.err(
+                "GitHub API request failed, status={d}, body={s}",
+                .{
+                    @intFromEnum(response.status),
+                    response.body,
+            },
+            );
         }
         return response.status;
     }

@@ -166,7 +166,9 @@ fn languages(
 }
 
 fn normalizedLanguageName(name: []const u8) []const u8 {
-    if (std.mem.eql(u8, name, "Jupyter Notebook")) {
+    if (std.mem.eql(u8, name, "Jupyter Notebook") or
+        std.mem.eql(u8, name, "Python"))
+    {
         return "Python";
     }
     return name;
@@ -341,6 +343,28 @@ pub fn main() !void {
 
 test {
     std.testing.refAllDecls(@This());
+}
+
+test "normalizedLanguageName maps Jupyter Notebook and Python to Python" {
+    try std.testing.expectEqualStrings(
+        "Python",
+        normalizedLanguageName("Jupyter Notebook"),
+    );
+    try std.testing.expectEqualStrings(
+        "Python",
+        normalizedLanguageName("Python"),
+    );
+}
+
+test "normalizedLanguageName keeps non-exact inputs unchanged" {
+    try std.testing.expectEqualStrings(
+        "  Jupyter Notebook\t",
+        normalizedLanguageName("  Jupyter Notebook\t"),
+    );
+    try std.testing.expectEqualStrings(
+        "python",
+        normalizedLanguageName("python"),
+    );
 }
 
 fn readFile(allocator: std.mem.Allocator, path: []const u8) ![]const u8 {
