@@ -32,6 +32,12 @@ table {
   table-layout: auto;
 }
 
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 th {
   padding: 0.5em;
   padding-top: 0;
@@ -52,6 +58,15 @@ td {
   font-size: 11px;
   line-height: 18px;
   color: rgb(88, 96, 105);
+}
+
+td:first-child {
+  width: 72%;
+}
+
+td:last-child {
+  text-align: right;
+  white-space: nowrap;
 }
 
 #gh-dark-mode-only:target td {
@@ -83,7 +98,7 @@ tr {
 <rect x="5" y="5" id="background" />
 <g>
 <foreignObject x="21" y="21" width="318" height="168">
-<div xmlns="http://www.w3.org/1999/xhtml">
+<div xmlns="http://www.w3.org/1999/xhtml" class="container">
 
 <table>
 <thead><tr style="transform: translateX(0);">

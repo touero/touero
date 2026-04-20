@@ -28,7 +28,7 @@ foreignObject {
 
 h2 {
   margin-top: 0;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.55em;
   line-height: 24px;
   font-size: 14px;
   font-weight: 600;
@@ -51,7 +51,7 @@ ul {
 li {
   display: inline-flex;
   font-size: 10px;
-  margin-right: 1ch;
+  margin-right: 0.65ch;
   align-items: center;
   flex-wrap: nowrap;
   transform: translateX(-500%);
@@ -65,14 +65,14 @@ li {
 }
 
 div.ellipsis {
-  height: 176px;
+  height: 190px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .octicon {
   fill: rgb(88, 96, 105);
-  margin-right: 0.5ch;
+  margin-right: 0.35ch;
   vertical-align: top;
 }
 
@@ -88,7 +88,7 @@ div.ellipsis {
   background-color: rgb(225, 228, 232);
   border-radius: 6px;
   outline: 1px solid transparent;
-  margin-bottom: 1em;
+  margin-bottom: 0.75em;
 }
 
 #gh-dark-mode-only:target .progress {
@@ -106,7 +106,7 @@ div.ellipsis {
 
 .lang {
   font-weight: 600;
-  margin-right: 4px;
+  margin-right: 2px;
   color: rgb(36, 41, 46);
 }
 
@@ -125,7 +125,7 @@ div.ellipsis {
 <g>
 <rect x="5" y="5" id="background" />
 <g>
-<foreignObject x="21" y="17" width="318" height="176">
+<foreignObject x="21" y="17" width="318" height="190">
 <div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
 
 <h2>Languages Used (By File Size)</h2>
