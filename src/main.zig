@@ -150,7 +150,7 @@ fn languages(
             \\      d="M8 4a4 4 0 100 8 4 4 0 000-8z"
             \\  ></path></svg>
             \\  <span class="lang">{s}</span>
-            \\  <span class="percent">{d:.2}%</span>
+            \\  <span class="percent">{d:.1}%</span>
             \\</li>
             \\
         , .{ (i + 1) * 150, color orelse "#000", language, percent });
@@ -163,6 +163,13 @@ fn languages(
             .progress = try std.mem.concat(a, u8, progress),
         },
     );
+}
+
+fn normalizedLanguageName(name: []const u8) []const u8 {
+    if (std.mem.eql(u8, name, "Jupyter Notebook")) {
+        return "Python";
+    }
+    return name;
 }
 
 pub fn main() !void {
@@ -279,15 +286,18 @@ pub fn main() !void {
         aggregate_stats.views += repository.views;
         aggregate_stats.repos += 1;
         if (repository.languages) |langs| for (langs) |language| {
-            if (glob.matchAny(exclude_langs orelse &.{}, language.name)) {
+            const lang_name = normalizedLanguageName(language.name);
+            if (glob.matchAny(exclude_langs orelse &.{}, lang_name)) {
                 continue;
             }
             if (language.color) |color| {
-                try aggregate_stats.language_colors.put(language.name, color);
+                if (!aggregate_stats.language_colors.contains(lang_name)) {
+                    try aggregate_stats.language_colors.put(lang_name, color);
+                }
             }
-            var total = aggregate_stats.languages.get(language.name) orelse 0;
+            var total = aggregate_stats.languages.get(lang_name) orelse 0;
             total += language.size;
-            try aggregate_stats.languages.put(language.name, total);
+            try aggregate_stats.languages.put(lang_name, total);
             aggregate_stats.languages_total += language.size;
         };
     }

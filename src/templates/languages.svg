@@ -46,14 +46,20 @@ ul {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.55ch;
+  row-gap: 0.22em;
+  align-content: flex-start;
 }
 
 li {
-  display: inline-flex;
-  font-size: 10px;
-  margin-right: 0.65ch;
+  display: flex;
+  font-size: 9px;
+  margin-right: 0;
   align-items: center;
   flex-wrap: nowrap;
+  line-height: 1.2;
   transform: translateX(-500%);
   animation: slideIn 2s ease-in-out forwards;
 }
@@ -65,7 +71,7 @@ li {
 }
 
 div.ellipsis {
-  height: 190px;
+  height: 194px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -88,7 +94,7 @@ div.ellipsis {
   background-color: rgb(225, 228, 232);
   border-radius: 6px;
   outline: 1px solid transparent;
-  margin-bottom: 0.75em;
+  margin-bottom: 0.6em;
 }
 
 #gh-dark-mode-only:target .progress {
@@ -106,7 +112,7 @@ div.ellipsis {
 
 .lang {
   font-weight: 600;
-  margin-right: 2px;
+  margin-right: 1px;
   color: rgb(36, 41, 46);
 }
 
@@ -125,7 +131,7 @@ div.ellipsis {
 <g>
 <rect x="5" y="5" id="background" />
 <g>
-<foreignObject x="21" y="17" width="318" height="190">
+<foreignObject x="21" y="17" width="318" height="194">
 <div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
 
 <h2>Languages Used (By File Size)</h2>
