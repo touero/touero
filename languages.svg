@@ -134,25 +134,25 @@ div.ellipsis {
 <span class="progress">
 <span style="
   background-color: #f1e05a; 
-  width: 40.760%;
+  width: 40.758%;
 " class="progress-item"></span><span style="
   background-color: #3572A5; 
-  width: 29.150%;
+  width: 29.148%;
 " class="progress-item"></span><span style="
   background-color: #f34b7d; 
-  width: 13.797%;
+  width: 13.796%;
 " class="progress-item"></span><span style="
   background-color: #DA5B0B; 
-  width: 4.011%;
+  width: 4.010%;
 " class="progress-item"></span><span style="
   background-color: #178600; 
-  width: 2.859%;
+  width: 2.858%;
 " class="progress-item"></span><span style="
   background-color: #89e051; 
-  width: 2.204%;
+  width: 2.210%;
 " class="progress-item"></span><span style="
   background-color: #555555; 
-  width: 1.607%;
+  width: 1.606%;
 " class="progress-item"></span><span style="
   background-color: #41b883; 
   width: 1.025%;
@@ -316,7 +316,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">Shell</span>
-  <span class="percent">2.20%</span>
+  <span class="percent">2.21%</span>
 </li>
 <li style="animation-delay: 1050ms;">
   <svg 
@@ -460,7 +460,7 @@ div.ellipsis {
       d="M8 4a4 4 0 100 8 4 4 0 000-8z"
   ></path></svg>
   <span class="lang">Markdown</span>
-  <span class="percent">0.21%</span>
+  <span class="percent">0.22%</span>
 </li>
 <li style="animation-delay: 2400ms;">
   <svg 
