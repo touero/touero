@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 
 import asyncio
+import fnmatch
+import json
 import os
+import sys
+import time
 from typing import Dict, List, Optional, Set, Tuple
 
 import aiohttp
@@ -54,33 +58,93 @@ class Queries(object):
         :return: deserialized REST JSON output
         """
 
-        for _ in range(30):
-            headers = {
-                "Authorization": f"token {self.access_token}",
-            }
-            if params is None:
-                params = dict()
-            if path.startswith("/"):
-                path = path[1:]
-            url = f"https://api.github.com/{path}"
+        headers = {
+            "Authorization": f"token {self.access_token}",
+        }
+        local_params = dict() if params is None else dict(params)
+        normalized_path = path[1:] if path.startswith("/") else path
+        url = f"https://api.github.com/{normalized_path}"
+
+        for attempt in range(30):
+            retry_after = min(60, 10 + attempt * 2)
             try:
                 async with self.semaphore:
-                    r = await self.session.get(url, headers=headers, params=tuple(params.items()))
+                    r = await self.session.get(url, headers=headers, params=tuple(local_params.items()))
                 if r.status == 200:
                     result = await r.json()
                     if result is not None:
                         return result
-                print(f"Async get {url} returned static code {r.status}. After 10 seconds retrying... \n {r.json}")
-                await asyncio.sleep(10)
+                if r.status in (401, 404):
+                    body = await r.text()
+                    print(f"Async get {url} returned non-retryable status {r.status}. Skipping.\n"
+                          f"Body: {body[:500]}")
+                    return dict()
+                if r.status == 403:
+                    body = await r.text()
+                    # For traffic APIs, GitHub requires push/admin access; this is not retryable.
+                    if ("Must have push access to repository" in body
+                            or "Resource not accessible by integration" in body):
+                        print(f"Async get {url} returned non-retryable status 403 (permission). Skipping.\n"
+                              f"Body: {body[:500]}")
+                        return dict()
+                    # Rate-limit 403 may be temporary; retry those.
+                    if "rate limit" in body.lower():
+                        reset_epoch = r.headers.get("X-RateLimit-Reset")
+                        wait_reason = "backoff"
+                        if reset_epoch and reset_epoch.isdigit():
+                            reset_wait = max(1, int(reset_epoch) - int(time.time()) + 1)
+                            retry_after = max(retry_after, min(reset_wait, 3600))
+                            wait_reason = "until rate-limit reset"
+                        print(f"Async get {url} returned status 403 (rate limit). "
+                              f"Retrying in {retry_after}s ({wait_reason})...\n"
+                              f"Body: {body[:500]}")
+                        await asyncio.sleep(retry_after)
+                        continue
+                    print(f"Async get {url} returned non-retryable status 403. Skipping.\n"
+                          f"Body: {body[:500]}")
+                    return dict()
+                if r.status == 202:
+                    header_delay = r.headers.get("Retry-After")
+                    if header_delay and header_delay.isdigit():
+                        retry_after = max(retry_after, int(header_delay))
+                    print(f"Async get {url} returned status 202 (GitHub is computing stats). "
+                          f"Retrying in {retry_after}s...")
+                elif r.status == 429 or 500 <= r.status <= 599:
+                    body = await r.text()
+                    print(f"Async get {url} returned retryable status {r.status}. Retrying in {retry_after}s...\n"
+                          f"Body: {body[:500]}")
+                else:
+                    body = await r.text()
+                    print(f"Async get {url} returned non-retryable status {r.status}. Skipping.\n"
+                          f"Body: {body[:500]}")
+                    return dict()
+                await asyncio.sleep(retry_after)
                 continue
             except Exception as e:
                 print(f"Async rest_query {url}: {str(e)}")
                 async with self.semaphore:
-                    r = requests.get(url, headers=headers, params=tuple(params.items()))
+                    r = requests.get(url, headers=headers, params=tuple(local_params.items()))
                     if r.status_code == 200:
                         return r.json()
-                    print(f"Sync get {url} returned static code {r.status_code}. After 10 seconds retrying... \n {r.json}")
-                    await asyncio.sleep(10)
+                    if r.status_code == 403 and "rate limit" in (r.text or "").lower():
+                        reset_epoch = r.headers.get("X-RateLimit-Reset")
+                        wait_reason = "backoff"
+                        if reset_epoch and reset_epoch.isdigit():
+                            reset_wait = max(1, int(reset_epoch) - int(time.time()) + 1)
+                            retry_after = max(retry_after, min(reset_wait, 3600))
+                            wait_reason = "until rate-limit reset"
+                        print(f"Sync get {url} returned status 403 (rate limit). "
+                              f"Retrying in {retry_after}s ({wait_reason})...\n"
+                              f"Body: {r.text[:500]}")
+                        await asyncio.sleep(retry_after)
+                        continue
+                    if r.status_code in (401, 403, 404):
+                        print(f"Sync get {url} returned non-retryable status {r.status_code}. Skipping.\n"
+                              f"Body: {r.text[:500]}")
+                        return dict()
+                    print(f"Sync get {url} returned status {r.status_code}. Retrying in {retry_after}s...\n"
+                          f"Body: {r.text[:500]}")
+                    await asyncio.sleep(retry_after)
                     continue
         print("There are too many access failures. Data for this repository will be incomplete.")
         return dict()
@@ -101,7 +165,6 @@ class Queries(object):
             field: UPDATED_AT,
             direction: DESC
         }},
-        isFork: false,
         after: {"null" if owned_cursor is None else '"'+ owned_cursor +'"'}
     ) {{
       pageInfo {{
@@ -110,6 +173,8 @@ class Queries(object):
       }}
       nodes {{
         nameWithOwner
+        isFork
+        viewerPermission
         stargazers {{
           totalCount
         }}
@@ -146,6 +211,7 @@ class Queries(object):
       }}
       nodes {{
         nameWithOwner
+        viewerPermission
         stargazers {{
           totalCount
         }}
@@ -234,8 +300,18 @@ class Stats(object):
         self._total_contributions = None
         self._languages = None
         self._repos = None
+        self._repos_with_push = None
         self._lines_changed = None
         self._views = None        
+
+    def _is_repo_excluded(self, repo_name: str) -> bool:
+        """
+        Return True when repo name matches any exclude pattern.
+        Supports exact names and glob patterns like `owner/*`.
+        """
+        if repo_name in self._exclude_repos:
+            return True
+        return any(fnmatch.fnmatch(repo_name, pattern) for pattern in self._exclude_repos)
 
     async def to_str(self) -> str:
         """
@@ -266,6 +342,7 @@ Languages:
         self._forks = 0
         self._languages = dict()
         self._repos = set()
+        self._repos_with_push = set()
         self._ignored_repos = set()
         
         next_owned = None
@@ -296,21 +373,32 @@ Languages:
                            .get("viewer", {})
                            .get("repositories", {}))
             
-            repos = owned_repos.get("nodes", [])
-            if self._consider_forked_repos:
-                repos += contrib_repos.get("nodes", [])
-            else:
-                for repo in contrib_repos.get("nodes", []):
-                    name = repo.get("nameWithOwner")
-                    if name in self._ignored_repos or name in self._exclude_repos:
-                        continue
-                    self._ignored_repos.add(name)
+            repos = []
+            for repo in owned_repos.get("nodes", []):
+                repo_name = repo.get("nameWithOwner")
+                if repo.get("isFork", False) and not self._consider_forked_repos:
+                    # Keep forked repos out of aggregate stats unless explicitly enabled.
+                    if repo_name and not self._is_repo_excluded(repo_name):
+                        self._ignored_repos.add(repo_name)
+                    continue
+                repos.append(repo)
+
+            # Contributed repos are for contribution-based metrics (e.g. lines changed),
+            # not star/fork aggregates.
+            for repo in contrib_repos.get("nodes", []):
+                repo_name = repo.get("nameWithOwner")
+                if repo_name in self._ignored_repos or self._is_repo_excluded(repo_name):
+                    continue
+                self._ignored_repos.add(repo_name)
 
             for repo in repos:
                 name = repo.get("nameWithOwner")
-                if name in self._repos or name in self._exclude_repos:
+                if name in self._repos or self._is_repo_excluded(name):
                     continue
                 self._repos.add(name)
+                permission = repo.get("viewerPermission", "")
+                if permission in {"ADMIN", "MAINTAIN", "WRITE"}:
+                    self._repos_with_push.add(name)
                 self._stargazers += repo.get("stargazers").get("totalCount", 0)
                 self._forks += repo.get("forkCount", 0)
 
@@ -341,10 +429,8 @@ Languages:
 
         # TODO: Improve languages to scale by number of contributions to
         #       specific filetypes
-        print(f'---- Languages: {self._languages}')
-        self._languages.pop("HTML", None)
-        self._languages.pop("CSS", None)
-        self._languages.pop("SCSS", None)
+        print("---- Languages:")
+        print(json.dumps(self._languages, indent=2, ensure_ascii=False))
 
         if self._languages.get("Python") is not None and self._languages.get("Jupyter Notebook") is not None:
             jupyter_statistics: int = self._languages["Jupyter Notebook"].get("size", 0)
@@ -465,22 +551,75 @@ Languages:
         """
         if self._lines_changed is not None:
             return self._lines_changed
+
+        def progress_line(done: int, total: int, width: int = 30) -> str:
+            ratio = 1.0 if total == 0 else done / total
+            filled = int(width * ratio)
+            bar = "█" * filled + "-" * (width - filled)
+            return f"[lines_changed] [{bar}] {ratio * 100:6.2f}% ({done}/{total})"
+
+        def render_status(done: int, total: int, repo_msg: str) -> None:
+            # Keep a 2-line live view: line1=progress bar, line2=current repo
+            sys.stdout.write("\033[2F")
+            sys.stdout.write("\033[2K" + progress_line(done, total) + "\n")
+            sys.stdout.write("\033[2K" + f"[lines_changed] repo: {repo_msg}\n")
+            sys.stdout.flush()
+
         additions = 0
         deletions = 0
-        for repo in await self.all_repos:
-            r = await self.queries.query_rest(f"/repos/{repo}/stats/contributors")
-            for author_obj in r:
-                # Handle malformed response from the API by skipping this repo
-                if (not isinstance(author_obj, dict)
-                        or not isinstance(author_obj.get("author", {}), dict)):
-                    continue
-                author = author_obj.get("author", {}).get("login", "")
-                if author != self.username:
-                    continue
+        repos = sorted(await self.all_repos)
+        total_repos = len(repos)
+        print(progress_line(0, total_repos))
+        print("[lines_changed] repo: waiting...")
 
-                for week in author_obj.get("weeks", []):
-                    additions += week.get("a", 0)
-                    deletions += week.get("d", 0)
+        for idx, repo in enumerate(repos, start=1):
+            render_status(idx - 1, total_repos, f"scanning {repo}")
+            repo_additions_before = additions
+            repo_deletions_before = deletions
+            repo_commit_count = 0
+            page = 1
+            had_any_commit = False
+            while True:
+                commits = await self.queries.query_rest(
+                    f"/repos/{repo}/commits",
+                    params={
+                        "author": self.username,
+                        "per_page": 100,
+                        "page": page
+                    }
+                )
+                if not isinstance(commits, list) or len(commits) == 0:
+                    break
+
+                had_any_commit = True
+                for commit in commits:
+                    sha = commit.get("sha", "") if isinstance(commit, dict) else ""
+                    if not sha:
+                        continue
+                    repo_commit_count += 1
+                    commit_detail = await self.queries.query_rest(
+                        f"/repos/{repo}/commits/{sha}"
+                    )
+                    if not isinstance(commit_detail, dict):
+                        continue
+                    stats = commit_detail.get("stats", {})
+                    additions += stats.get("additions", 0)
+                    deletions += stats.get("deletions", 0)
+
+                if len(commits) < 100:
+                    break
+                page += 1
+            if had_any_commit:
+                render_status(
+                    idx,
+                    total_repos,
+                    f"done {repo} | commits={repo_commit_count}, "
+                    f"+{additions - repo_additions_before}/-{deletions - repo_deletions_before}",
+                )
+            else:
+                render_status(idx, total_repos, f"done {repo} | no commits by {self.username}")
+
+        print(f"[lines_changed] Finished. total additions=+{additions}, deletions=-{deletions}")
 
         self._lines_changed = (additions, deletions)
         return self._lines_changed
@@ -495,7 +634,11 @@ Languages:
             return self._views
 
         total = 0
-        for repo in await self.repos:
+        repos_for_views = self._repos_with_push
+        if repos_for_views is None:
+            await self.get_stats()
+            repos_for_views = self._repos_with_push
+        for repo in sorted(repos_for_views or set()):
             r = await self.queries.query_rest(f"/repos/{repo}/traffic/views")
             for view in r.get("views", []):
                 total += view.get("count", 0)
